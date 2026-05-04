@@ -54,21 +54,3 @@ warehouse-digital-twin/
     ├── index.html                  # Main HTML entry point
     └── package.json                # Frontend dependencies (three, @react-three/fiber, zustand)
 ```
-
-## Getting Started
-
-### Backend & Infrastructure (Person A)
-1. Navigate to `infrastructure/` and run `docker-compose up -d` to start the Kafka and database stack.
-2. Navigate to `backend/`, install Python requirements, run Alembic migrations, and start the FastAPI server.
-
-### Frontend (Person B)
-1. Navigate to `frontend/`.
-2. Run `npm install` to install React and Three.js dependencies.
-3. Run `npm run dev` to start the Vite development server.
-4. The frontend initially uses the `mockDataGenerator` to simulate a live connection, allowing UI development without the backend running.
-
-## The Handoff Contract
-To allow complete developmental independence, the backend and frontend are decoupled by a strict **WebSocket JSON Payload Schema**. 
-- **Person A** guarantees the backend produces this exact JSON.
-- **Person B** uses the `mockDataGenerator` to simulate this JSON during development, allowing the 3D scene to be built independently. 
-- Integration simply involves pointing the frontend WebSocket client to the live FastAPI URL.
