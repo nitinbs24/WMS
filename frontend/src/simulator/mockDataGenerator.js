@@ -61,15 +61,19 @@ function getErgonomicZone(level, totalLevels) {
 function calculateBinPosition(aisle, rack, level, config = DEFAULT_WAREHOUSE_CONFIG) {
   const { aisleWidth, rackWidth, rackDepth, levelHeight } = config;
 
-  // X: aisle position (rack pairs on either side of the aisle)
-  const aisleSpacing = rackDepth * 2 + aisleWidth;
-  const x = aisle * aisleSpacing + rackDepth / 2;
+  const rackSpacing  = rackWidth + 0.3;       // spacing between bays along Z
+  const aisleSpacing = rackDepth * 2 + aisleWidth; // spacing between aisles along X
 
-  // Z: rack position along the aisle
-  const rackSpacing = rackWidth + 0.3; // 0.3m gap between racks
-  const z = rack * rackSpacing + rackWidth / 2;
+  // Place bins on the FRONT rack row of each aisle
+  // Front rack row X center = aisleX + rackDepth/2
+  const aisleX = aisle * aisleSpacing;
+  const x = aisleX + rackDepth / 2;
 
-  // Y: vertical level
+  // Z center of this rack bay
+  const rackZ = rack * rackSpacing + rackWidth / 2;
+  const z = rackZ;
+
+  // Y center of this level
   const y = level * levelHeight + levelHeight / 2;
 
   return { x, y, z };
