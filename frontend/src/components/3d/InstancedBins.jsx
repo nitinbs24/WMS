@@ -1,6 +1,7 @@
 import { useMemo, useCallback, useRef } from 'react';
 import * as THREE from 'three';
 import useWarehouseStore from '../../store/useWarehouseStore';
+import { scoreToHeatmapColor } from '../../utils/colors';
 
 /**
  * InstancedBins — Bin Renderer
@@ -35,9 +36,17 @@ function getMaterial(hex) {
   return materialCache.get(key);
 }
 
-function Bin({ bin, onClick }) {
-  const { position, dimensions, color_hex } = bin;
-  const mat = useMemo(() => getMaterial(color_hex), [color_hex]);
+function Bin({ bin, heatmapMode, onClick }) {
+  const { position, dimensions, color_hex, slot_score } = bin;
+  
+  const activeColor = useMemo(() => {
+    if (heatmapMode === 'velocity') {
+      return scoreToHeatmapColor(slot_score || 0);
+    }
+    return color_hex;
+  }, [heatmapMode, color_hex, slot_score]);
+
+  const mat = useMemo(() => getMaterial(activeColor), [activeColor]);
 
   const w = (dimensions?.l ?? 1.2) * 0.86;
   const h = (dimensions?.h ?? 1.5) * 0.84;
@@ -57,13 +66,14 @@ function Bin({ bin, onClick }) {
 }
 
 export default function InstancedBins({ onBinClick }) {
-  const bins     = useWarehouseStore((s) => s.bins);
-  const binArray = useMemo(() => Object.values(bins), [bins]);
+  const bins        = useWarehouseStore((s) => s.bins);
+  const heatmapMode = useWarehouseStore((s) => s.heatmapMode);
+  const binArray    = useMemo(() => Object.values(bins), [bins]);
 
   return (
     <group name="bins">
       {binArray.map((bin) => (
-        <Bin key={bin.bin_id} bin={bin} onClick={onBinClick} />
+        <Bin key={bin.bin_id} bin={bin} heatmapMode={heatmapMode} onClick={onBinClick} />
       ))}
     </group>
   );

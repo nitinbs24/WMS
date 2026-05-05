@@ -15,6 +15,7 @@ import {
   stopAutoSimulation,
   isSimulationRunning,
 } from '../../simulator/mockDataGenerator';
+import AIPanel from './AIPanel';
 
 /**
  * Layout — Main Dashboard Wrapper
@@ -191,6 +192,7 @@ export default function Layout({ children, cameraMode, onCameraToggle }) {
 
       {/* ── Main Canvas Area ────────────────────────────── */}
       <main className="app-main">
+        <AIPanel />
         {children}
         <ErrorToasts />
       </main>
