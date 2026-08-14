@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { authApi } from '../../api/auth';
-import { useAuthStore } from '../../store/useAuthStore';
+import { authApi } from '../api/auth';
+import { useAuthStore } from '../store/useAuthStore';
 
 export default function LoginPage() {
   const navigate = useNavigate();
@@ -17,8 +17,9 @@ export default function LoginPage() {
     setLoading(true);
     try {
       const data = await authApi.login(email, password);
+      // Store token first so the /me call can use it in the Authorization header
+      setAuth({ token: data.access_token, refreshToken: data.refresh_token, user: null });
       const me = await authApi.me();
-      // Use fresh Bearer to get /me — re-call with token in store
       setAuth({ token: data.access_token, refreshToken: data.refresh_token, user: me });
       navigate('/');
     } catch (err) {
