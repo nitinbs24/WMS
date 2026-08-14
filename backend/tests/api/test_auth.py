@@ -8,7 +8,7 @@ from httpx import AsyncClient
 @pytest.mark.asyncio
 async def test_login_success(client: AsyncClient, admin_user):
     resp = await client.post("/api/v1/auth/login", json={
-        "email": "testadmin@warehaven.local",
+        "email": "testadmin@example.com",
         "password": "testpassword",
     })
     assert resp.status_code == 200
@@ -21,7 +21,7 @@ async def test_login_success(client: AsyncClient, admin_user):
 @pytest.mark.asyncio
 async def test_login_wrong_password(client: AsyncClient, admin_user):
     resp = await client.post("/api/v1/auth/login", json={
-        "email": "testadmin@warehaven.local",
+        "email": "testadmin@example.com",
         "password": "wrongpassword",
     })
     assert resp.status_code == 401
@@ -33,7 +33,7 @@ async def test_me_returns_user(client: AsyncClient, admin_token: str):
     assert resp.status_code == 200
     data = resp.json()
     assert data["role"] == "admin"
-    assert data["email"] == "testadmin@warehaven.local"
+    assert data["email"] == "testadmin@example.com"
 
 
 @pytest.mark.asyncio
@@ -46,10 +46,10 @@ async def test_unauthenticated_request_returns_401(client: AsyncClient):
 async def test_staff_cannot_access_users(client: AsyncClient, db_session):
     from app.models.user import User
     from app.core.security import hash_password
-    staff = User(name="Staff", email="staff@test.local", password_hash=hash_password("pass"), role="staff")
+    staff = User(name="Staff", email="staff@example.com", password_hash=hash_password("pass"), role="staff")
     db_session.add(staff)
-    await db_session.flush()
-    login = await client.post("/api/v1/auth/login", json={"email": "staff@test.local", "password": "pass"})
+    await db_session.commit()
+    login = await client.post("/api/v1/auth/login", json={"email": "staff@example.com", "password": "pass"})
     token = login.json()["access_token"]
     resp = await client.get("/api/v1/users", headers={"Authorization": f"Bearer {token}"})
     assert resp.status_code == 403
