@@ -5,7 +5,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.api.deps import get_db, get_current_user, require_role
+from app.api.deps import get_current_user, get_db, require_role
 from app.models.settings import ThresholdSettings
 from app.models.user import User
 
@@ -35,7 +35,7 @@ async def get_active_thresholds(
 ):
     """Return the currently active ThresholdSettings version."""
     result = await db.execute(
-        select(ThresholdSettings).where(ThresholdSettings.is_active == True).order_by(ThresholdSettings.version.desc())
+        select(ThresholdSettings).where(ThresholdSettings.is_active).order_by(ThresholdSettings.version.desc())
     )
     settings = result.scalar_one_or_none()
     if not settings:

@@ -11,10 +11,7 @@ Full implementation in Phase 4 — pseudocode from Algorithm Implementation Repo
 """
 from __future__ import annotations
 
-import uuid
-
 from app.algorithms.types import Dims, Item, Pallet, Thresholds
-from app.algorithms.safety import check_com_stability
 
 
 def build_pallets(

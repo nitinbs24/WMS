@@ -7,10 +7,9 @@ Units: meters / kilograms throughout (TRD §15.3).
 """
 from __future__ import annotations
 
+import uuid
 from dataclasses import dataclass, field
 from typing import TypedDict
-import uuid
-
 
 # ---------------------------------------------------------------------------
 # Input types

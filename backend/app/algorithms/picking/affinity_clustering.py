@@ -10,7 +10,7 @@ Full implementation in Phase 4 — pseudocode from Algorithm Implementation Repo
 """
 from __future__ import annotations
 
-from app.algorithms.types import OrderLines, SKU, Slot, SlotAssignmentResult, Thresholds
+from app.algorithms.types import SKU, OrderLines, Slot, SlotAssignmentResult, Thresholds
 
 
 def assign(

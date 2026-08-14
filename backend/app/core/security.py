@@ -1,27 +1,25 @@
 from __future__ import annotations
 
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 
-from jose import JWTError, jwt
-from passlib.context import CryptContext
+import bcrypt
+from jose import jwt
 
 from app.core.config import get_settings
 
 settings = get_settings()
 
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-
 
 # ---------------------------------------------------------------------------
-# Password helpers
+# Password helpers (direct bcrypt — passlib incompatible with bcrypt>=4)
 # ---------------------------------------------------------------------------
 
 def hash_password(plain: str) -> str:
-    return pwd_context.hash(plain)
+    return bcrypt.hashpw(plain.encode(), bcrypt.gensalt()).decode()
 
 
 def verify_password(plain: str, hashed: str) -> bool:
-    return pwd_context.verify(plain, hashed)
+    return bcrypt.checkpw(plain.encode(), hashed.encode())
 
 
 # ---------------------------------------------------------------------------
@@ -29,7 +27,7 @@ def verify_password(plain: str, hashed: str) -> bool:
 # ---------------------------------------------------------------------------
 
 def create_access_token(subject: str, role: str) -> str:
-    expire = datetime.now(timezone.utc) + timedelta(minutes=settings.JWT_ACCESS_TTL_MIN)
+    expire = datetime.now(UTC) + timedelta(minutes=settings.JWT_ACCESS_TTL_MIN)
     payload = {
         "sub": subject,       # user UUID as string
         "role": role,
@@ -40,7 +38,7 @@ def create_access_token(subject: str, role: str) -> str:
 
 
 def create_refresh_token(subject: str) -> str:
-    expire = datetime.now(timezone.utc) + timedelta(days=settings.JWT_REFRESH_TTL_DAYS)
+    expire = datetime.now(UTC) + timedelta(days=settings.JWT_REFRESH_TTL_DAYS)
     payload = {
         "sub": subject,
         "type": "refresh",

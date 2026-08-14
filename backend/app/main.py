@@ -12,9 +12,19 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
+from app.api import (
+    assignments,
+    auth,
+    exceptions,
+    layout,
+    products,
+    runs,
+    schedules,
+    settings,
+    users,
+)
 from app.core.config import get_settings
 from app.core.logging import configure_logging, get_logger
-from app.api import auth, users, layout, products, runs, assignments, exceptions, settings, schedules
 
 configure_logging()
 log = get_logger(__name__)
@@ -33,7 +43,8 @@ async def lifespan(app: FastAPI):
 
 async def seed_default_admin() -> None:
     """Create the default admin user if no users exist."""
-    from sqlalchemy import select, func
+    from sqlalchemy import func, select
+
     from app.core.database import AsyncSessionLocal
     from app.core.security import hash_password
     from app.models.user import User
@@ -55,7 +66,8 @@ async def seed_default_admin() -> None:
 
 async def seed_default_thresholds() -> None:
     """Create the default ThresholdSettings v1 row if none exist."""
-    from sqlalchemy import select, func
+    from sqlalchemy import func, select
+
     from app.core.database import AsyncSessionLocal
     from app.models.settings import ThresholdSettings
 

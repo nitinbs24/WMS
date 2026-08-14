@@ -7,7 +7,7 @@ algorithm before accepting any placement.
 """
 from __future__ import annotations
 
-from app.algorithms.types import Item, Pallet, Slot, Thresholds
+from app.algorithms.types import Pallet, Slot, Thresholds
 
 
 class SafetyViolation(Exception):

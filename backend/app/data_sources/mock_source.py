@@ -5,11 +5,9 @@ Phase 3 will add full implementation with seeded pick history and affinity group
 """
 from __future__ import annotations
 
-import json
 from pathlib import Path
 
-from app.algorithms.types import Dims, Item, OrderLines, PickHistory
-from app.data_sources.interface import DataSource
+from app.algorithms.types import Item, OrderLines, PickHistory
 
 SEED_DIR = Path(__file__).parent.parent.parent / "seed"
 

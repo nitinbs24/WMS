@@ -7,10 +7,10 @@ from __future__ import annotations
 
 import uuid
 
-from fastapi import APIRouter, Depends, HTTPException, UploadFile, File
+from fastapi import APIRouter, Depends, File, HTTPException, UploadFile
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.api.deps import get_db, get_current_user, require_role
+from app.api.deps import get_current_user, get_db, require_role
 from app.models.user import User
 
 router = APIRouter(prefix="/layout", tags=["layout"])

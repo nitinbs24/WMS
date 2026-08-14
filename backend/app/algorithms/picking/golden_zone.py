@@ -11,9 +11,7 @@ Full implementation in Phase 4 — pseudocode from Algorithm Implementation Repo
 """
 from __future__ import annotations
 
-from app.algorithms.types import (
-    PickHistory, SKU, Slot, SlotAssignmentResult, Thresholds
-)
+from app.algorithms.types import SKU, PickHistory, Slot, SlotAssignmentResult, Thresholds
 
 
 def assign(

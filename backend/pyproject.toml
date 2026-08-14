@@ -19,7 +19,7 @@ dependencies = [
 
     # Auth
     "python-jose[cryptography]>=3.3.0",
-    "passlib[bcrypt]>=1.7.4",
+    "bcrypt>=4.0.0",
 
     # Background jobs
     "arq>=0.25.0",
@@ -60,7 +60,11 @@ target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "N", "UP", "B", "SIM"]
-ignore = ["E501"]
+ignore = [
+    "E501",   # line too long — handled by formatter
+    "B008",   # FastAPI Depends() in function defaults — this is the correct FastAPI pattern
+    "N818",   # Exception class naming — SafetyViolation is the established domain term
+]
 
 [tool.mypy]
 python_version = "3.12"

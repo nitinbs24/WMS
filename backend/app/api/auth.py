@@ -6,6 +6,7 @@ from pydantic import BaseModel, EmailStr
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from app.api.deps import get_current_user
 from app.core.database import get_db
 from app.core.security import (
     create_access_token,
@@ -14,7 +15,6 @@ from app.core.security import (
     verify_password,
 )
 from app.models.user import User
-from app.api.deps import get_current_user
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 
@@ -55,8 +55,8 @@ async def refresh(body: RefreshRequest, db: AsyncSession = Depends(get_db)):
     from jose import JWTError
     try:
         payload = decode_token(body.refresh_token)
-    except JWTError:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid refresh token")
+    except JWTError as err:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid refresh token") from err
     if payload.get("type") != "refresh":
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Not a refresh token")
     result = await db.execute(select(User).where(User.id == payload["sub"]))
