@@ -502,3 +502,31 @@ tr:hover td { background: rgba(255,255,255,.02); }
   color: var(--color-text-muted);
   margin-top: 2px;
 }
+
+/* ============================================================
+   Spinner
+   ============================================================ */
+.spinner {
+  width: 28px;
+  height: 28px;
+  border: 3px solid var(--color-border);
+  border-top-color: var(--color-primary-light);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+/* ============================================================
+   Utilities — Phase 6
+   ============================================================ */
+.font-mono  { font-family: var(--font-mono); }
+.text-xs    { font-size: 11px; }
+.w-full     { width: 100%; }
