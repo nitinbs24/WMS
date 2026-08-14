@@ -17,6 +17,7 @@ class Product(Base):
     )
     sku: Mapped[str] = mapped_column(sa.Text, unique=True, nullable=False)
     name: Mapped[str] = mapped_column(sa.Text, nullable=False)
+    description: Mapped[str | None] = mapped_column(sa.Text, nullable=True)
     length: Mapped[float] = mapped_column(sa.Numeric, nullable=False)
     width: Mapped[float] = mapped_column(sa.Numeric, nullable=False)
     height: Mapped[float] = mapped_column(sa.Numeric, nullable=False)

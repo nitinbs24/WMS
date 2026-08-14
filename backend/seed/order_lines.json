@@ -1,0 +1,4328 @@
+[
+  {
+    "order_id": "d86cbe76-6c8a-45c6-a107-70536b0b408b",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-07-22T00:00:00"
+  },
+  {
+    "order_id": "d86cbe76-6c8a-45c6-a107-70536b0b408b",
+    "product_id": "6e59d05c-eb0f-5f33-8dcc-d3f3b79a0c8c",
+    "sku": "SKU-044",
+    "occurred_at": "2026-05-26T00:00:00"
+  },
+  {
+    "order_id": "d86cbe76-6c8a-45c6-a107-70536b0b408b",
+    "product_id": "d83e1a4d-d1b3-53f0-8a77-9757de5266e9",
+    "sku": "SKU-042",
+    "occurred_at": "2026-07-27T00:00:00"
+  },
+  {
+    "order_id": "d86cbe76-6c8a-45c6-a107-70536b0b408b",
+    "product_id": "a8ffaa35-1c7c-5663-b245-a4fac74d25a9",
+    "sku": "SKU-023",
+    "occurred_at": "2026-07-05T00:00:00"
+  },
+  {
+    "order_id": "d86cbe76-6c8a-45c6-a107-70536b0b408b",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-08-05T00:00:00"
+  },
+  {
+    "order_id": "d86cbe76-6c8a-45c6-a107-70536b0b408b",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-05-27T00:00:00"
+  },
+  {
+    "order_id": "8b83e58e-da8c-408d-9369-88f0605eaf74",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-05-28T00:00:00"
+  },
+  {
+    "order_id": "8b83e58e-da8c-408d-9369-88f0605eaf74",
+    "product_id": "5f0dc79d-d537-54e3-b928-16d44126c3e4",
+    "sku": "SKU-016",
+    "occurred_at": "2026-06-29T00:00:00"
+  },
+  {
+    "order_id": "8b83e58e-da8c-408d-9369-88f0605eaf74",
+    "product_id": "a85f16f9-1301-5b22-9cb6-12075535116f",
+    "sku": "SKU-019",
+    "occurred_at": "2026-06-01T00:00:00"
+  },
+  {
+    "order_id": "01ba20a2-4ef6-454c-8090-36cd1608673a",
+    "product_id": "5e3e6384-61a6-567b-9703-059611ace791",
+    "sku": "SKU-038",
+    "occurred_at": "2026-06-28T00:00:00"
+  },
+  {
+    "order_id": "01ba20a2-4ef6-454c-8090-36cd1608673a",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-05-23T00:00:00"
+  },
+  {
+    "order_id": "1dc31a21-7cf6-49ad-a61b-40a3a62180dd",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-07-09T00:00:00"
+  },
+  {
+    "order_id": "1dc31a21-7cf6-49ad-a61b-40a3a62180dd",
+    "product_id": "addd5b27-08de-5d5e-a95b-c1c9bff7f43f",
+    "sku": "SKU-015",
+    "occurred_at": "2026-06-08T00:00:00"
+  },
+  {
+    "order_id": "1dc31a21-7cf6-49ad-a61b-40a3a62180dd",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-07-29T00:00:00"
+  },
+  {
+    "order_id": "1dc31a21-7cf6-49ad-a61b-40a3a62180dd",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-07-15T00:00:00"
+  },
+  {
+    "order_id": "abf86605-445b-4459-9c99-3f768bcf38df",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-06-03T00:00:00"
+  },
+  {
+    "order_id": "abf86605-445b-4459-9c99-3f768bcf38df",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-07-17T00:00:00"
+  },
+  {
+    "order_id": "abf86605-445b-4459-9c99-3f768bcf38df",
+    "product_id": "a6aef866-b043-52b8-a6e6-882008cf940c",
+    "sku": "SKU-025",
+    "occurred_at": "2026-06-21T00:00:00"
+  },
+  {
+    "order_id": "1ccf3dfd-8b86-4302-99d2-c4afeae0faef",
+    "product_id": "fc8a8760-54ad-5b83-88d2-ef95c635419c",
+    "sku": "SKU-035",
+    "occurred_at": "2026-07-03T00:00:00"
+  },
+  {
+    "order_id": "1ccf3dfd-8b86-4302-99d2-c4afeae0faef",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-05-30T00:00:00"
+  },
+  {
+    "order_id": "7ed3e59e-ba6c-496e-9864-899c35968a26",
+    "product_id": "d2d7a2a0-6709-5023-bb12-a34e97a1d1e3",
+    "sku": "SKU-021",
+    "occurred_at": "2026-06-23T00:00:00"
+  },
+  {
+    "order_id": "fe1bd0e5-f171-4334-b42e-05757bfa5ae1",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-05-23T00:00:00"
+  },
+  {
+    "order_id": "6b8c1e69-e4c9-4395-8328-1c898ee9c0d1",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-05-30T00:00:00"
+  },
+  {
+    "order_id": "6b8c1e69-e4c9-4395-8328-1c898ee9c0d1",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-07-22T00:00:00"
+  },
+  {
+    "order_id": "6b8c1e69-e4c9-4395-8328-1c898ee9c0d1",
+    "product_id": "35ac0c09-5ba8-57e4-8940-d6361efad9ac",
+    "sku": "SKU-037",
+    "occurred_at": "2026-08-03T00:00:00"
+  },
+  {
+    "order_id": "6b8c1e69-e4c9-4395-8328-1c898ee9c0d1",
+    "product_id": "d2d7a2a0-6709-5023-bb12-a34e97a1d1e3",
+    "sku": "SKU-021",
+    "occurred_at": "2026-06-02T00:00:00"
+  },
+  {
+    "order_id": "6b8c1e69-e4c9-4395-8328-1c898ee9c0d1",
+    "product_id": "a6aef866-b043-52b8-a6e6-882008cf940c",
+    "sku": "SKU-025",
+    "occurred_at": "2026-07-10T00:00:00"
+  },
+  {
+    "order_id": "2396b615-0050-4728-80bd-1fd033d1ba3b",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-06-11T00:00:00"
+  },
+  {
+    "order_id": "7ac9e437-63e6-4587-a2a0-a04e6345ed9e",
+    "product_id": "a6aef866-b043-52b8-a6e6-882008cf940c",
+    "sku": "SKU-025",
+    "occurred_at": "2026-05-15T00:00:00"
+  },
+  {
+    "order_id": "7ac9e437-63e6-4587-a2a0-a04e6345ed9e",
+    "product_id": "a7e04e72-8810-51c2-9095-24710fbc097d",
+    "sku": "SKU-034",
+    "occurred_at": "2026-06-17T00:00:00"
+  },
+  {
+    "order_id": "5eac2d62-611e-4753-8d8c-e1e97ebd5b80",
+    "product_id": "25a5ca15-302f-50c0-937b-d066f7340a4c",
+    "sku": "SKU-050",
+    "occurred_at": "2026-05-21T00:00:00"
+  },
+  {
+    "order_id": "3a29c519-9e39-4049-a8d2-ee7149994b4b",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-06-12T00:00:00"
+  },
+  {
+    "order_id": "3a29c519-9e39-4049-a8d2-ee7149994b4b",
+    "product_id": "269dfc3f-e648-558a-8d9b-56d8768973f4",
+    "sku": "SKU-011",
+    "occurred_at": "2026-08-05T00:00:00"
+  },
+  {
+    "order_id": "3a29c519-9e39-4049-a8d2-ee7149994b4b",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-06-29T00:00:00"
+  },
+  {
+    "order_id": "3a29c519-9e39-4049-a8d2-ee7149994b4b",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-08-07T00:00:00"
+  },
+  {
+    "order_id": "90a63b10-d9a8-4c7b-9a29-761639fc1b3f",
+    "product_id": "d338c8f7-e2c1-5249-a4f9-c56c4c303468",
+    "sku": "SKU-031",
+    "occurred_at": "2026-06-26T00:00:00"
+  },
+  {
+    "order_id": "90a63b10-d9a8-4c7b-9a29-761639fc1b3f",
+    "product_id": "d370571c-5782-530a-97fc-de8a22d80b39",
+    "sku": "SKU-041",
+    "occurred_at": "2026-08-08T00:00:00"
+  },
+  {
+    "order_id": "90a63b10-d9a8-4c7b-9a29-761639fc1b3f",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-06-01T00:00:00"
+  },
+  {
+    "order_id": "90a63b10-d9a8-4c7b-9a29-761639fc1b3f",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-06-29T00:00:00"
+  },
+  {
+    "order_id": "90a63b10-d9a8-4c7b-9a29-761639fc1b3f",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-08-04T00:00:00"
+  },
+  {
+    "order_id": "a430fe7b-be62-42cb-bb73-d16f509b8700",
+    "product_id": "7d440a2f-3c01-575d-be1f-7aef2d4f8e9b",
+    "sku": "SKU-026",
+    "occurred_at": "2026-05-27T00:00:00"
+  },
+  {
+    "order_id": "a430fe7b-be62-42cb-bb73-d16f509b8700",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-05-29T00:00:00"
+  },
+  {
+    "order_id": "a430fe7b-be62-42cb-bb73-d16f509b8700",
+    "product_id": "addd5b27-08de-5d5e-a95b-c1c9bff7f43f",
+    "sku": "SKU-015",
+    "occurred_at": "2026-05-21T00:00:00"
+  },
+  {
+    "order_id": "a430fe7b-be62-42cb-bb73-d16f509b8700",
+    "product_id": "a6aef866-b043-52b8-a6e6-882008cf940c",
+    "sku": "SKU-025",
+    "occurred_at": "2026-07-04T00:00:00"
+  },
+  {
+    "order_id": "a430fe7b-be62-42cb-bb73-d16f509b8700",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-06-18T00:00:00"
+  },
+  {
+    "order_id": "c10671bb-8c6d-4cdf-b369-5000b68b6e55",
+    "product_id": "d338c8f7-e2c1-5249-a4f9-c56c4c303468",
+    "sku": "SKU-031",
+    "occurred_at": "2026-07-12T00:00:00"
+  },
+  {
+    "order_id": "c10671bb-8c6d-4cdf-b369-5000b68b6e55",
+    "product_id": "d370571c-5782-530a-97fc-de8a22d80b39",
+    "sku": "SKU-041",
+    "occurred_at": "2026-07-04T00:00:00"
+  },
+  {
+    "order_id": "083d4848-189d-4058-a1d6-f591414b7bde",
+    "product_id": "229b1fe7-d3f0-5438-a003-940745c347ff",
+    "sku": "SKU-049",
+    "occurred_at": "2026-06-25T00:00:00"
+  },
+  {
+    "order_id": "083d4848-189d-4058-a1d6-f591414b7bde",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-05-18T00:00:00"
+  },
+  {
+    "order_id": "bff2ad7d-1977-4386-8b5b-745647ea1fae",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-07-03T00:00:00"
+  },
+  {
+    "order_id": "bff2ad7d-1977-4386-8b5b-745647ea1fae",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-05-22T00:00:00"
+  },
+  {
+    "order_id": "19ddde36-a4d0-46da-8c91-f84578010df1",
+    "product_id": "f4ed3368-d5aa-58d5-942a-c3360f1f1c31",
+    "sku": "SKU-046",
+    "occurred_at": "2026-07-31T00:00:00"
+  },
+  {
+    "order_id": "381461a4-143c-4faa-a7fe-3686774f827c",
+    "product_id": "6ffc6e88-4d13-554a-9b65-6d8137b51420",
+    "sku": "SKU-027",
+    "occurred_at": "2026-05-20T00:00:00"
+  },
+  {
+    "order_id": "381461a4-143c-4faa-a7fe-3686774f827c",
+    "product_id": "5e3e6384-61a6-567b-9703-059611ace791",
+    "sku": "SKU-038",
+    "occurred_at": "2026-06-03T00:00:00"
+  },
+  {
+    "order_id": "381461a4-143c-4faa-a7fe-3686774f827c",
+    "product_id": "a8ffaa35-1c7c-5663-b245-a4fac74d25a9",
+    "sku": "SKU-023",
+    "occurred_at": "2026-07-01T00:00:00"
+  },
+  {
+    "order_id": "381461a4-143c-4faa-a7fe-3686774f827c",
+    "product_id": "a8ffaa35-1c7c-5663-b245-a4fac74d25a9",
+    "sku": "SKU-023",
+    "occurred_at": "2026-06-22T00:00:00"
+  },
+  {
+    "order_id": "381461a4-143c-4faa-a7fe-3686774f827c",
+    "product_id": "d2d7a2a0-6709-5023-bb12-a34e97a1d1e3",
+    "sku": "SKU-021",
+    "occurred_at": "2026-06-20T00:00:00"
+  },
+  {
+    "order_id": "c9892dbd-d008-4e72-8193-0b7ffebdc314",
+    "product_id": "bd02bf7b-edc0-5c54-b331-5b7ea08b87b0",
+    "sku": "SKU-032",
+    "occurred_at": "2026-06-01T00:00:00"
+  },
+  {
+    "order_id": "c9892dbd-d008-4e72-8193-0b7ffebdc314",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-08-11T00:00:00"
+  },
+  {
+    "order_id": "c2d752db-bdeb-4ced-b03c-ecff549cbbbd",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-07-18T00:00:00"
+  },
+  {
+    "order_id": "c2d752db-bdeb-4ced-b03c-ecff549cbbbd",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-05-16T00:00:00"
+  },
+  {
+    "order_id": "c2d752db-bdeb-4ced-b03c-ecff549cbbbd",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-05-31T00:00:00"
+  },
+  {
+    "order_id": "c2d752db-bdeb-4ced-b03c-ecff549cbbbd",
+    "product_id": "a85f16f9-1301-5b22-9cb6-12075535116f",
+    "sku": "SKU-019",
+    "occurred_at": "2026-07-25T00:00:00"
+  },
+  {
+    "order_id": "c2d752db-bdeb-4ced-b03c-ecff549cbbbd",
+    "product_id": "6e59d05c-eb0f-5f33-8dcc-d3f3b79a0c8c",
+    "sku": "SKU-044",
+    "occurred_at": "2026-06-03T00:00:00"
+  },
+  {
+    "order_id": "c2d752db-bdeb-4ced-b03c-ecff549cbbbd",
+    "product_id": "5f0dc79d-d537-54e3-b928-16d44126c3e4",
+    "sku": "SKU-016",
+    "occurred_at": "2026-07-07T00:00:00"
+  },
+  {
+    "order_id": "4792d210-470d-4441-af74-f1f090a57e18",
+    "product_id": "f0b2bc2e-bc70-5904-944f-fa6b3656f2c9",
+    "sku": "SKU-028",
+    "occurred_at": "2026-06-06T00:00:00"
+  },
+  {
+    "order_id": "4792d210-470d-4441-af74-f1f090a57e18",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-07-22T00:00:00"
+  },
+  {
+    "order_id": "4792d210-470d-4441-af74-f1f090a57e18",
+    "product_id": "a85f16f9-1301-5b22-9cb6-12075535116f",
+    "sku": "SKU-019",
+    "occurred_at": "2026-07-02T00:00:00"
+  },
+  {
+    "order_id": "29fc3ce8-d8d7-4387-bec6-ed135cfed2f5",
+    "product_id": "269dfc3f-e648-558a-8d9b-56d8768973f4",
+    "sku": "SKU-011",
+    "occurred_at": "2026-07-20T00:00:00"
+  },
+  {
+    "order_id": "29fc3ce8-d8d7-4387-bec6-ed135cfed2f5",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-07-27T00:00:00"
+  },
+  {
+    "order_id": "29fc3ce8-d8d7-4387-bec6-ed135cfed2f5",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-08-10T00:00:00"
+  },
+  {
+    "order_id": "29fc3ce8-d8d7-4387-bec6-ed135cfed2f5",
+    "product_id": "3ce7d165-cb15-52bf-8ca3-d4c39a973f6e",
+    "sku": "SKU-018",
+    "occurred_at": "2026-05-27T00:00:00"
+  },
+  {
+    "order_id": "9cb5dbfd-4ced-4bfe-933e-1c9bcebbeaeb",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-05-28T00:00:00"
+  },
+  {
+    "order_id": "9cb5dbfd-4ced-4bfe-933e-1c9bcebbeaeb",
+    "product_id": "5e3e6384-61a6-567b-9703-059611ace791",
+    "sku": "SKU-038",
+    "occurred_at": "2026-06-21T00:00:00"
+  },
+  {
+    "order_id": "265af050-e5d6-48a5-a0b1-5f7f1e2c39c8",
+    "product_id": "d338c8f7-e2c1-5249-a4f9-c56c4c303468",
+    "sku": "SKU-031",
+    "occurred_at": "2026-07-30T00:00:00"
+  },
+  {
+    "order_id": "265af050-e5d6-48a5-a0b1-5f7f1e2c39c8",
+    "product_id": "a6aef866-b043-52b8-a6e6-882008cf940c",
+    "sku": "SKU-025",
+    "occurred_at": "2026-07-04T00:00:00"
+  },
+  {
+    "order_id": "cbe6bba1-69e5-4c08-a449-deb5e3e1effd",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-07-21T00:00:00"
+  },
+  {
+    "order_id": "cbe6bba1-69e5-4c08-a449-deb5e3e1effd",
+    "product_id": "0517034f-2fa2-5b66-b6d0-333dbee47c35",
+    "sku": "SKU-045",
+    "occurred_at": "2026-06-23T00:00:00"
+  },
+  {
+    "order_id": "cbe6bba1-69e5-4c08-a449-deb5e3e1effd",
+    "product_id": "1a6a9419-5b14-517b-b33e-f46cd9935ea5",
+    "sku": "SKU-043",
+    "occurred_at": "2026-06-10T00:00:00"
+  },
+  {
+    "order_id": "cbe6bba1-69e5-4c08-a449-deb5e3e1effd",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-08-12T00:00:00"
+  },
+  {
+    "order_id": "cbe6bba1-69e5-4c08-a449-deb5e3e1effd",
+    "product_id": "0df9b010-c350-549f-9310-b196d131d93d",
+    "sku": "SKU-017",
+    "occurred_at": "2026-05-20T00:00:00"
+  },
+  {
+    "order_id": "bae63cfe-f6b7-43a5-a501-83872b7dec0e",
+    "product_id": "72bdb851-a746-558e-b9f7-cf73e620a03c",
+    "sku": "SKU-024",
+    "occurred_at": "2026-05-19T00:00:00"
+  },
+  {
+    "order_id": "54b7c36e-36ca-4e6b-9bef-06ca2a6b1ee1",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-07-12T00:00:00"
+  },
+  {
+    "order_id": "54b7c36e-36ca-4e6b-9bef-06ca2a6b1ee1",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-06-11T00:00:00"
+  },
+  {
+    "order_id": "54b7c36e-36ca-4e6b-9bef-06ca2a6b1ee1",
+    "product_id": "1350ebed-a5d4-52ae-bcf2-cb71b55e6d6f",
+    "sku": "SKU-033",
+    "occurred_at": "2026-05-22T00:00:00"
+  },
+  {
+    "order_id": "54b7c36e-36ca-4e6b-9bef-06ca2a6b1ee1",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-08-06T00:00:00"
+  },
+  {
+    "order_id": "54b7c36e-36ca-4e6b-9bef-06ca2a6b1ee1",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-06-07T00:00:00"
+  },
+  {
+    "order_id": "bf687c6f-e6b2-4850-b761-763f902de072",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-06-15T00:00:00"
+  },
+  {
+    "order_id": "bf687c6f-e6b2-4850-b761-763f902de072",
+    "product_id": "d6164dc6-88dc-5061-bc3a-8d44685e0252",
+    "sku": "SKU-048",
+    "occurred_at": "2026-08-05T00:00:00"
+  },
+  {
+    "order_id": "bf687c6f-e6b2-4850-b761-763f902de072",
+    "product_id": "0517034f-2fa2-5b66-b6d0-333dbee47c35",
+    "sku": "SKU-045",
+    "occurred_at": "2026-07-09T00:00:00"
+  },
+  {
+    "order_id": "bf687c6f-e6b2-4850-b761-763f902de072",
+    "product_id": "5f0dc79d-d537-54e3-b928-16d44126c3e4",
+    "sku": "SKU-016",
+    "occurred_at": "2026-06-30T00:00:00"
+  },
+  {
+    "order_id": "86b2a1fc-9a9c-4c43-a94a-bdb4b07b4c4f",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-06-01T00:00:00"
+  },
+  {
+    "order_id": "86b2a1fc-9a9c-4c43-a94a-bdb4b07b4c4f",
+    "product_id": "35ac0c09-5ba8-57e4-8940-d6361efad9ac",
+    "sku": "SKU-037",
+    "occurred_at": "2026-05-17T00:00:00"
+  },
+  {
+    "order_id": "86b2a1fc-9a9c-4c43-a94a-bdb4b07b4c4f",
+    "product_id": "7d440a2f-3c01-575d-be1f-7aef2d4f8e9b",
+    "sku": "SKU-026",
+    "occurred_at": "2026-08-11T00:00:00"
+  },
+  {
+    "order_id": "86b2a1fc-9a9c-4c43-a94a-bdb4b07b4c4f",
+    "product_id": "1a6a9419-5b14-517b-b33e-f46cd9935ea5",
+    "sku": "SKU-043",
+    "occurred_at": "2026-06-20T00:00:00"
+  },
+  {
+    "order_id": "86b2a1fc-9a9c-4c43-a94a-bdb4b07b4c4f",
+    "product_id": "5e3e6384-61a6-567b-9703-059611ace791",
+    "sku": "SKU-038",
+    "occurred_at": "2026-07-16T00:00:00"
+  },
+  {
+    "order_id": "409e1003-b870-4ade-b3bb-34eb5c96575c",
+    "product_id": "a7e04e72-8810-51c2-9095-24710fbc097d",
+    "sku": "SKU-034",
+    "occurred_at": "2026-08-05T00:00:00"
+  },
+  {
+    "order_id": "409e1003-b870-4ade-b3bb-34eb5c96575c",
+    "product_id": "d370571c-5782-530a-97fc-de8a22d80b39",
+    "sku": "SKU-041",
+    "occurred_at": "2026-05-17T00:00:00"
+  },
+  {
+    "order_id": "409e1003-b870-4ade-b3bb-34eb5c96575c",
+    "product_id": "d370571c-5782-530a-97fc-de8a22d80b39",
+    "sku": "SKU-041",
+    "occurred_at": "2026-07-24T00:00:00"
+  },
+  {
+    "order_id": "409e1003-b870-4ade-b3bb-34eb5c96575c",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-06-14T00:00:00"
+  },
+  {
+    "order_id": "409e1003-b870-4ade-b3bb-34eb5c96575c",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-07-04T00:00:00"
+  },
+  {
+    "order_id": "409e1003-b870-4ade-b3bb-34eb5c96575c",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-06-15T00:00:00"
+  },
+  {
+    "order_id": "89e8bcb9-6373-494f-92ec-5652e50aee38",
+    "product_id": "2e1edade-4bf7-54bd-acb8-9d691be2d74d",
+    "sku": "SKU-036",
+    "occurred_at": "2026-07-22T00:00:00"
+  },
+  {
+    "order_id": "89e8bcb9-6373-494f-92ec-5652e50aee38",
+    "product_id": "a37d5ec6-fb15-5aa7-96e3-fa6ae1141c23",
+    "sku": "SKU-014",
+    "occurred_at": "2026-07-10T00:00:00"
+  },
+  {
+    "order_id": "89e8bcb9-6373-494f-92ec-5652e50aee38",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-05-23T00:00:00"
+  },
+  {
+    "order_id": "89e8bcb9-6373-494f-92ec-5652e50aee38",
+    "product_id": "addd5b27-08de-5d5e-a95b-c1c9bff7f43f",
+    "sku": "SKU-015",
+    "occurred_at": "2026-07-02T00:00:00"
+  },
+  {
+    "order_id": "89e8bcb9-6373-494f-92ec-5652e50aee38",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-06-10T00:00:00"
+  },
+  {
+    "order_id": "89e8bcb9-6373-494f-92ec-5652e50aee38",
+    "product_id": "f0b2bc2e-bc70-5904-944f-fa6b3656f2c9",
+    "sku": "SKU-028",
+    "occurred_at": "2026-07-26T00:00:00"
+  },
+  {
+    "order_id": "de00e1aa-1632-4659-9244-a626d4983c9f",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-06-26T00:00:00"
+  },
+  {
+    "order_id": "de00e1aa-1632-4659-9244-a626d4983c9f",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-06-25T00:00:00"
+  },
+  {
+    "order_id": "de00e1aa-1632-4659-9244-a626d4983c9f",
+    "product_id": "1a3830bb-83a6-5449-8016-1f8af884fb26",
+    "sku": "SKU-040",
+    "occurred_at": "2026-05-17T00:00:00"
+  },
+  {
+    "order_id": "204f7e3f-db6d-4af1-98e1-7c257f3628de",
+    "product_id": "a37d5ec6-fb15-5aa7-96e3-fa6ae1141c23",
+    "sku": "SKU-014",
+    "occurred_at": "2026-05-29T00:00:00"
+  },
+  {
+    "order_id": "204f7e3f-db6d-4af1-98e1-7c257f3628de",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-06-19T00:00:00"
+  },
+  {
+    "order_id": "204f7e3f-db6d-4af1-98e1-7c257f3628de",
+    "product_id": "5057a11a-7f5d-543a-b3e0-2df6b0d9d349",
+    "sku": "SKU-030",
+    "occurred_at": "2026-07-22T00:00:00"
+  },
+  {
+    "order_id": "204f7e3f-db6d-4af1-98e1-7c257f3628de",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-05-23T00:00:00"
+  },
+  {
+    "order_id": "204f7e3f-db6d-4af1-98e1-7c257f3628de",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-05-31T00:00:00"
+  },
+  {
+    "order_id": "204f7e3f-db6d-4af1-98e1-7c257f3628de",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-05-24T00:00:00"
+  },
+  {
+    "order_id": "eff60a4d-90bb-427a-b5c1-5db82e681ae6",
+    "product_id": "5057a11a-7f5d-543a-b3e0-2df6b0d9d349",
+    "sku": "SKU-030",
+    "occurred_at": "2026-07-30T00:00:00"
+  },
+  {
+    "order_id": "afc0f8cd-12b3-4fe5-8c02-1f0103210aab",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-08-05T00:00:00"
+  },
+  {
+    "order_id": "afc0f8cd-12b3-4fe5-8c02-1f0103210aab",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-06-28T00:00:00"
+  },
+  {
+    "order_id": "43ac4401-9549-46ad-bb8e-7bc378d172d9",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-06-03T00:00:00"
+  },
+  {
+    "order_id": "a2fa9f29-cee3-4256-9f52-0db680d400ac",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-06-05T00:00:00"
+  },
+  {
+    "order_id": "a2fa9f29-cee3-4256-9f52-0db680d400ac",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-07-08T00:00:00"
+  },
+  {
+    "order_id": "a2fa9f29-cee3-4256-9f52-0db680d400ac",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-08-06T00:00:00"
+  },
+  {
+    "order_id": "a2fa9f29-cee3-4256-9f52-0db680d400ac",
+    "product_id": "d2d7a2a0-6709-5023-bb12-a34e97a1d1e3",
+    "sku": "SKU-021",
+    "occurred_at": "2026-07-14T00:00:00"
+  },
+  {
+    "order_id": "a2fa9f29-cee3-4256-9f52-0db680d400ac",
+    "product_id": "a6aef866-b043-52b8-a6e6-882008cf940c",
+    "sku": "SKU-025",
+    "occurred_at": "2026-07-27T00:00:00"
+  },
+  {
+    "order_id": "79d90cc1-ffad-4214-8da2-b97b67f19644",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-08-05T00:00:00"
+  },
+  {
+    "order_id": "79d90cc1-ffad-4214-8da2-b97b67f19644",
+    "product_id": "72bdb851-a746-558e-b9f7-cf73e620a03c",
+    "sku": "SKU-024",
+    "occurred_at": "2026-06-20T00:00:00"
+  },
+  {
+    "order_id": "50fe5986-0b99-4768-a5c5-6a542fc1e7e0",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-05-27T00:00:00"
+  },
+  {
+    "order_id": "3be4e04a-93e5-4a5a-8921-cf6dffa2aa2d",
+    "product_id": "bd02bf7b-edc0-5c54-b331-5b7ea08b87b0",
+    "sku": "SKU-032",
+    "occurred_at": "2026-07-27T00:00:00"
+  },
+  {
+    "order_id": "3be4e04a-93e5-4a5a-8921-cf6dffa2aa2d",
+    "product_id": "fc8a8760-54ad-5b83-88d2-ef95c635419c",
+    "sku": "SKU-035",
+    "occurred_at": "2026-07-29T00:00:00"
+  },
+  {
+    "order_id": "0b49ca71-d8f3-448c-9580-9cf077bdf08f",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-07-01T00:00:00"
+  },
+  {
+    "order_id": "0b49ca71-d8f3-448c-9580-9cf077bdf08f",
+    "product_id": "72bdb851-a746-558e-b9f7-cf73e620a03c",
+    "sku": "SKU-024",
+    "occurred_at": "2026-05-20T00:00:00"
+  },
+  {
+    "order_id": "0b49ca71-d8f3-448c-9580-9cf077bdf08f",
+    "product_id": "4b302167-40da-584b-9e82-1f01d5d25337",
+    "sku": "SKU-029",
+    "occurred_at": "2026-07-08T00:00:00"
+  },
+  {
+    "order_id": "0b49ca71-d8f3-448c-9580-9cf077bdf08f",
+    "product_id": "35ac0c09-5ba8-57e4-8940-d6361efad9ac",
+    "sku": "SKU-037",
+    "occurred_at": "2026-07-12T00:00:00"
+  },
+  {
+    "order_id": "0b49ca71-d8f3-448c-9580-9cf077bdf08f",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-06-10T00:00:00"
+  },
+  {
+    "order_id": "0b49ca71-d8f3-448c-9580-9cf077bdf08f",
+    "product_id": "35ac0c09-5ba8-57e4-8940-d6361efad9ac",
+    "sku": "SKU-037",
+    "occurred_at": "2026-06-17T00:00:00"
+  },
+  {
+    "order_id": "5935fefb-ddd9-45f0-8ec5-d77f75d00bf3",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-07-05T00:00:00"
+  },
+  {
+    "order_id": "5935fefb-ddd9-45f0-8ec5-d77f75d00bf3",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-07-04T00:00:00"
+  },
+  {
+    "order_id": "5935fefb-ddd9-45f0-8ec5-d77f75d00bf3",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-06-01T00:00:00"
+  },
+  {
+    "order_id": "5935fefb-ddd9-45f0-8ec5-d77f75d00bf3",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-06-09T00:00:00"
+  },
+  {
+    "order_id": "f07b83d7-334c-4223-b43b-7388809baaaa",
+    "product_id": "a8ffaa35-1c7c-5663-b245-a4fac74d25a9",
+    "sku": "SKU-023",
+    "occurred_at": "2026-07-10T00:00:00"
+  },
+  {
+    "order_id": "f07b83d7-334c-4223-b43b-7388809baaaa",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-06-05T00:00:00"
+  },
+  {
+    "order_id": "f07b83d7-334c-4223-b43b-7388809baaaa",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-07-22T00:00:00"
+  },
+  {
+    "order_id": "f07b83d7-334c-4223-b43b-7388809baaaa",
+    "product_id": "d83e1a4d-d1b3-53f0-8a77-9757de5266e9",
+    "sku": "SKU-042",
+    "occurred_at": "2026-06-28T00:00:00"
+  },
+  {
+    "order_id": "07fcf301-f5ba-4eb6-a70a-7fb60e1d2332",
+    "product_id": "addd5b27-08de-5d5e-a95b-c1c9bff7f43f",
+    "sku": "SKU-015",
+    "occurred_at": "2026-08-07T00:00:00"
+  },
+  {
+    "order_id": "07fcf301-f5ba-4eb6-a70a-7fb60e1d2332",
+    "product_id": "4b302167-40da-584b-9e82-1f01d5d25337",
+    "sku": "SKU-029",
+    "occurred_at": "2026-07-26T00:00:00"
+  },
+  {
+    "order_id": "07fcf301-f5ba-4eb6-a70a-7fb60e1d2332",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-06-25T00:00:00"
+  },
+  {
+    "order_id": "7a902299-037f-473b-8f07-08ae0498509a",
+    "product_id": "269dfc3f-e648-558a-8d9b-56d8768973f4",
+    "sku": "SKU-011",
+    "occurred_at": "2026-05-24T00:00:00"
+  },
+  {
+    "order_id": "7a902299-037f-473b-8f07-08ae0498509a",
+    "product_id": "fc8a8760-54ad-5b83-88d2-ef95c635419c",
+    "sku": "SKU-035",
+    "occurred_at": "2026-06-29T00:00:00"
+  },
+  {
+    "order_id": "27747677-4645-48e9-aa31-5e19c2a52a93",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-06-18T00:00:00"
+  },
+  {
+    "order_id": "27747677-4645-48e9-aa31-5e19c2a52a93",
+    "product_id": "5e3e6384-61a6-567b-9703-059611ace791",
+    "sku": "SKU-038",
+    "occurred_at": "2026-08-02T00:00:00"
+  },
+  {
+    "order_id": "27747677-4645-48e9-aa31-5e19c2a52a93",
+    "product_id": "d83e1a4d-d1b3-53f0-8a77-9757de5266e9",
+    "sku": "SKU-042",
+    "occurred_at": "2026-06-17T00:00:00"
+  },
+  {
+    "order_id": "e2b62d9a-ae43-44d6-8236-bd362f1f5f25",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-07-04T00:00:00"
+  },
+  {
+    "order_id": "e2b62d9a-ae43-44d6-8236-bd362f1f5f25",
+    "product_id": "d2d7a2a0-6709-5023-bb12-a34e97a1d1e3",
+    "sku": "SKU-021",
+    "occurred_at": "2026-07-23T00:00:00"
+  },
+  {
+    "order_id": "e2b62d9a-ae43-44d6-8236-bd362f1f5f25",
+    "product_id": "5e3e6384-61a6-567b-9703-059611ace791",
+    "sku": "SKU-038",
+    "occurred_at": "2026-05-16T00:00:00"
+  },
+  {
+    "order_id": "e2b62d9a-ae43-44d6-8236-bd362f1f5f25",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-05-31T00:00:00"
+  },
+  {
+    "order_id": "86fb3381-567e-446c-84c0-40f49e8816fb",
+    "product_id": "5057a11a-7f5d-543a-b3e0-2df6b0d9d349",
+    "sku": "SKU-030",
+    "occurred_at": "2026-05-16T00:00:00"
+  },
+  {
+    "order_id": "86fb3381-567e-446c-84c0-40f49e8816fb",
+    "product_id": "a6aef866-b043-52b8-a6e6-882008cf940c",
+    "sku": "SKU-025",
+    "occurred_at": "2026-07-20T00:00:00"
+  },
+  {
+    "order_id": "86fb3381-567e-446c-84c0-40f49e8816fb",
+    "product_id": "220a7e00-dac8-5898-bf86-a43a27155160",
+    "sku": "SKU-039",
+    "occurred_at": "2026-06-07T00:00:00"
+  },
+  {
+    "order_id": "86fb3381-567e-446c-84c0-40f49e8816fb",
+    "product_id": "5f0dc79d-d537-54e3-b928-16d44126c3e4",
+    "sku": "SKU-016",
+    "occurred_at": "2026-07-29T00:00:00"
+  },
+  {
+    "order_id": "86fb3381-567e-446c-84c0-40f49e8816fb",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-08-10T00:00:00"
+  },
+  {
+    "order_id": "86fb3381-567e-446c-84c0-40f49e8816fb",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-06-19T00:00:00"
+  },
+  {
+    "order_id": "47aa1876-74c8-4910-b663-4ecffe52d9a2",
+    "product_id": "bd02bf7b-edc0-5c54-b331-5b7ea08b87b0",
+    "sku": "SKU-032",
+    "occurred_at": "2026-06-11T00:00:00"
+  },
+  {
+    "order_id": "47aa1876-74c8-4910-b663-4ecffe52d9a2",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-06-21T00:00:00"
+  },
+  {
+    "order_id": "47aa1876-74c8-4910-b663-4ecffe52d9a2",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-08-11T00:00:00"
+  },
+  {
+    "order_id": "47aa1876-74c8-4910-b663-4ecffe52d9a2",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-06-06T00:00:00"
+  },
+  {
+    "order_id": "47aa1876-74c8-4910-b663-4ecffe52d9a2",
+    "product_id": "35ac0c09-5ba8-57e4-8940-d6361efad9ac",
+    "sku": "SKU-037",
+    "occurred_at": "2026-07-29T00:00:00"
+  },
+  {
+    "order_id": "47aa1876-74c8-4910-b663-4ecffe52d9a2",
+    "product_id": "25a5ca15-302f-50c0-937b-d066f7340a4c",
+    "sku": "SKU-050",
+    "occurred_at": "2026-05-27T00:00:00"
+  },
+  {
+    "order_id": "de4f0a77-3386-4e2f-8258-d948a4f6083a",
+    "product_id": "a37d5ec6-fb15-5aa7-96e3-fa6ae1141c23",
+    "sku": "SKU-014",
+    "occurred_at": "2026-06-08T00:00:00"
+  },
+  {
+    "order_id": "de4f0a77-3386-4e2f-8258-d948a4f6083a",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-07-18T00:00:00"
+  },
+  {
+    "order_id": "de4f0a77-3386-4e2f-8258-d948a4f6083a",
+    "product_id": "4b302167-40da-584b-9e82-1f01d5d25337",
+    "sku": "SKU-029",
+    "occurred_at": "2026-05-21T00:00:00"
+  },
+  {
+    "order_id": "7799b852-977f-44c1-8ee1-907d114c9193",
+    "product_id": "d6164dc6-88dc-5061-bc3a-8d44685e0252",
+    "sku": "SKU-048",
+    "occurred_at": "2026-07-07T00:00:00"
+  },
+  {
+    "order_id": "7799b852-977f-44c1-8ee1-907d114c9193",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-05-18T00:00:00"
+  },
+  {
+    "order_id": "7799b852-977f-44c1-8ee1-907d114c9193",
+    "product_id": "35ac0c09-5ba8-57e4-8940-d6361efad9ac",
+    "sku": "SKU-037",
+    "occurred_at": "2026-07-22T00:00:00"
+  },
+  {
+    "order_id": "7799b852-977f-44c1-8ee1-907d114c9193",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-05-29T00:00:00"
+  },
+  {
+    "order_id": "7799b852-977f-44c1-8ee1-907d114c9193",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-06-27T00:00:00"
+  },
+  {
+    "order_id": "60004862-fb6a-44a6-b538-7f984cda331e",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-05-28T00:00:00"
+  },
+  {
+    "order_id": "60004862-fb6a-44a6-b538-7f984cda331e",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-07-16T00:00:00"
+  },
+  {
+    "order_id": "60004862-fb6a-44a6-b538-7f984cda331e",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-06-14T00:00:00"
+  },
+  {
+    "order_id": "60004862-fb6a-44a6-b538-7f984cda331e",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-08-09T00:00:00"
+  },
+  {
+    "order_id": "95c3d199-4dee-4deb-b250-6cebe918bf66",
+    "product_id": "5e3e6384-61a6-567b-9703-059611ace791",
+    "sku": "SKU-038",
+    "occurred_at": "2026-07-23T00:00:00"
+  },
+  {
+    "order_id": "95c3d199-4dee-4deb-b250-6cebe918bf66",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-05-16T00:00:00"
+  },
+  {
+    "order_id": "c9a637d5-30e4-4d52-879f-de37e80b3d32",
+    "product_id": "0df9b010-c350-549f-9310-b196d131d93d",
+    "sku": "SKU-017",
+    "occurred_at": "2026-08-04T00:00:00"
+  },
+  {
+    "order_id": "c9a637d5-30e4-4d52-879f-de37e80b3d32",
+    "product_id": "25a5ca15-302f-50c0-937b-d066f7340a4c",
+    "sku": "SKU-050",
+    "occurred_at": "2026-07-15T00:00:00"
+  },
+  {
+    "order_id": "c9a637d5-30e4-4d52-879f-de37e80b3d32",
+    "product_id": "d6164dc6-88dc-5061-bc3a-8d44685e0252",
+    "sku": "SKU-048",
+    "occurred_at": "2026-08-02T00:00:00"
+  },
+  {
+    "order_id": "9f7dde97-3917-42fc-a5ef-642d70b1c208",
+    "product_id": "0df9b010-c350-549f-9310-b196d131d93d",
+    "sku": "SKU-017",
+    "occurred_at": "2026-07-26T00:00:00"
+  },
+  {
+    "order_id": "9f7dde97-3917-42fc-a5ef-642d70b1c208",
+    "product_id": "6e59d05c-eb0f-5f33-8dcc-d3f3b79a0c8c",
+    "sku": "SKU-044",
+    "occurred_at": "2026-06-28T00:00:00"
+  },
+  {
+    "order_id": "9f7dde97-3917-42fc-a5ef-642d70b1c208",
+    "product_id": "72bdb851-a746-558e-b9f7-cf73e620a03c",
+    "sku": "SKU-024",
+    "occurred_at": "2026-07-25T00:00:00"
+  },
+  {
+    "order_id": "9f7dde97-3917-42fc-a5ef-642d70b1c208",
+    "product_id": "72bdb851-a746-558e-b9f7-cf73e620a03c",
+    "sku": "SKU-024",
+    "occurred_at": "2026-06-10T00:00:00"
+  },
+  {
+    "order_id": "f9733117-54e2-4ae9-8677-5bc77ec227a4",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-06-08T00:00:00"
+  },
+  {
+    "order_id": "f9733117-54e2-4ae9-8677-5bc77ec227a4",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-05-29T00:00:00"
+  },
+  {
+    "order_id": "e9abbb1f-767c-4b82-a79e-08bdf39ca7a3",
+    "product_id": "0df9b010-c350-549f-9310-b196d131d93d",
+    "sku": "SKU-017",
+    "occurred_at": "2026-07-01T00:00:00"
+  },
+  {
+    "order_id": "b816c5c2-30f4-4f88-b637-623c8494f844",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-06-06T00:00:00"
+  },
+  {
+    "order_id": "5c079be1-9f09-473f-8371-867d1e49ccf5",
+    "product_id": "3ce7d165-cb15-52bf-8ca3-d4c39a973f6e",
+    "sku": "SKU-018",
+    "occurred_at": "2026-05-15T00:00:00"
+  },
+  {
+    "order_id": "5c079be1-9f09-473f-8371-867d1e49ccf5",
+    "product_id": "a6aef866-b043-52b8-a6e6-882008cf940c",
+    "sku": "SKU-025",
+    "occurred_at": "2026-06-04T00:00:00"
+  },
+  {
+    "order_id": "5c079be1-9f09-473f-8371-867d1e49ccf5",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-06-12T00:00:00"
+  },
+  {
+    "order_id": "5c079be1-9f09-473f-8371-867d1e49ccf5",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-05-21T00:00:00"
+  },
+  {
+    "order_id": "5c079be1-9f09-473f-8371-867d1e49ccf5",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-08-06T00:00:00"
+  },
+  {
+    "order_id": "5c079be1-9f09-473f-8371-867d1e49ccf5",
+    "product_id": "a6aef866-b043-52b8-a6e6-882008cf940c",
+    "sku": "SKU-025",
+    "occurred_at": "2026-06-08T00:00:00"
+  },
+  {
+    "order_id": "ce57a668-a5ba-49cb-b5c6-e551268a79ca",
+    "product_id": "a6aef866-b043-52b8-a6e6-882008cf940c",
+    "sku": "SKU-025",
+    "occurred_at": "2026-08-05T00:00:00"
+  },
+  {
+    "order_id": "ce57a668-a5ba-49cb-b5c6-e551268a79ca",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-06-08T00:00:00"
+  },
+  {
+    "order_id": "ce57a668-a5ba-49cb-b5c6-e551268a79ca",
+    "product_id": "a85f16f9-1301-5b22-9cb6-12075535116f",
+    "sku": "SKU-019",
+    "occurred_at": "2026-07-04T00:00:00"
+  },
+  {
+    "order_id": "ce57a668-a5ba-49cb-b5c6-e551268a79ca",
+    "product_id": "72bdb851-a746-558e-b9f7-cf73e620a03c",
+    "sku": "SKU-024",
+    "occurred_at": "2026-07-14T00:00:00"
+  },
+  {
+    "order_id": "ce57a668-a5ba-49cb-b5c6-e551268a79ca",
+    "product_id": "a85f16f9-1301-5b22-9cb6-12075535116f",
+    "sku": "SKU-019",
+    "occurred_at": "2026-06-20T00:00:00"
+  },
+  {
+    "order_id": "533cc98a-27f7-4c96-95a9-543559c586db",
+    "product_id": "fc8a8760-54ad-5b83-88d2-ef95c635419c",
+    "sku": "SKU-035",
+    "occurred_at": "2026-06-27T00:00:00"
+  },
+  {
+    "order_id": "533cc98a-27f7-4c96-95a9-543559c586db",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-08-09T00:00:00"
+  },
+  {
+    "order_id": "533cc98a-27f7-4c96-95a9-543559c586db",
+    "product_id": "220a7e00-dac8-5898-bf86-a43a27155160",
+    "sku": "SKU-039",
+    "occurred_at": "2026-06-16T00:00:00"
+  },
+  {
+    "order_id": "533cc98a-27f7-4c96-95a9-543559c586db",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-07-29T00:00:00"
+  },
+  {
+    "order_id": "533cc98a-27f7-4c96-95a9-543559c586db",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-06-11T00:00:00"
+  },
+  {
+    "order_id": "d9454655-8246-45a7-827f-4f93d4590e4a",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-07-09T00:00:00"
+  },
+  {
+    "order_id": "d9454655-8246-45a7-827f-4f93d4590e4a",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-05-21T00:00:00"
+  },
+  {
+    "order_id": "d615b22b-305d-4e1f-88d8-82d64939204d",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-07-14T00:00:00"
+  },
+  {
+    "order_id": "d615b22b-305d-4e1f-88d8-82d64939204d",
+    "product_id": "5e3e6384-61a6-567b-9703-059611ace791",
+    "sku": "SKU-038",
+    "occurred_at": "2026-06-13T00:00:00"
+  },
+  {
+    "order_id": "d615b22b-305d-4e1f-88d8-82d64939204d",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-07-07T00:00:00"
+  },
+  {
+    "order_id": "d615b22b-305d-4e1f-88d8-82d64939204d",
+    "product_id": "bd02bf7b-edc0-5c54-b331-5b7ea08b87b0",
+    "sku": "SKU-032",
+    "occurred_at": "2026-07-24T00:00:00"
+  },
+  {
+    "order_id": "36a4616c-e658-418c-ac27-dac2df0126db",
+    "product_id": "7d440a2f-3c01-575d-be1f-7aef2d4f8e9b",
+    "sku": "SKU-026",
+    "occurred_at": "2026-06-16T00:00:00"
+  },
+  {
+    "order_id": "36a4616c-e658-418c-ac27-dac2df0126db",
+    "product_id": "0df9b010-c350-549f-9310-b196d131d93d",
+    "sku": "SKU-017",
+    "occurred_at": "2026-06-30T00:00:00"
+  },
+  {
+    "order_id": "789deb2c-2c1a-409c-8404-ccc2d21d3173",
+    "product_id": "d370571c-5782-530a-97fc-de8a22d80b39",
+    "sku": "SKU-041",
+    "occurred_at": "2026-06-29T00:00:00"
+  },
+  {
+    "order_id": "789deb2c-2c1a-409c-8404-ccc2d21d3173",
+    "product_id": "d272c854-faf3-53e0-a879-9c1039136510",
+    "sku": "SKU-047",
+    "occurred_at": "2026-06-01T00:00:00"
+  },
+  {
+    "order_id": "789deb2c-2c1a-409c-8404-ccc2d21d3173",
+    "product_id": "0517034f-2fa2-5b66-b6d0-333dbee47c35",
+    "sku": "SKU-045",
+    "occurred_at": "2026-06-08T00:00:00"
+  },
+  {
+    "order_id": "789deb2c-2c1a-409c-8404-ccc2d21d3173",
+    "product_id": "1a3830bb-83a6-5449-8016-1f8af884fb26",
+    "sku": "SKU-040",
+    "occurred_at": "2026-06-02T00:00:00"
+  },
+  {
+    "order_id": "dafacaaf-f199-4702-96c3-bc124b2ae92f",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-06-06T00:00:00"
+  },
+  {
+    "order_id": "dafacaaf-f199-4702-96c3-bc124b2ae92f",
+    "product_id": "addd5b27-08de-5d5e-a95b-c1c9bff7f43f",
+    "sku": "SKU-015",
+    "occurred_at": "2026-07-25T00:00:00"
+  },
+  {
+    "order_id": "dafacaaf-f199-4702-96c3-bc124b2ae92f",
+    "product_id": "0df9b010-c350-549f-9310-b196d131d93d",
+    "sku": "SKU-017",
+    "occurred_at": "2026-07-10T00:00:00"
+  },
+  {
+    "order_id": "dafacaaf-f199-4702-96c3-bc124b2ae92f",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-06-21T00:00:00"
+  },
+  {
+    "order_id": "dafacaaf-f199-4702-96c3-bc124b2ae92f",
+    "product_id": "1a3830bb-83a6-5449-8016-1f8af884fb26",
+    "sku": "SKU-040",
+    "occurred_at": "2026-05-28T00:00:00"
+  },
+  {
+    "order_id": "2ddb04fb-9a72-4343-af40-8843a44c75f7",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-07-24T00:00:00"
+  },
+  {
+    "order_id": "2ddb04fb-9a72-4343-af40-8843a44c75f7",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-07-10T00:00:00"
+  },
+  {
+    "order_id": "2ddb04fb-9a72-4343-af40-8843a44c75f7",
+    "product_id": "f4ed3368-d5aa-58d5-942a-c3360f1f1c31",
+    "sku": "SKU-046",
+    "occurred_at": "2026-07-21T00:00:00"
+  },
+  {
+    "order_id": "2ddb04fb-9a72-4343-af40-8843a44c75f7",
+    "product_id": "269dfc3f-e648-558a-8d9b-56d8768973f4",
+    "sku": "SKU-011",
+    "occurred_at": "2026-07-27T00:00:00"
+  },
+  {
+    "order_id": "2ddb04fb-9a72-4343-af40-8843a44c75f7",
+    "product_id": "fc8a8760-54ad-5b83-88d2-ef95c635419c",
+    "sku": "SKU-035",
+    "occurred_at": "2026-08-03T00:00:00"
+  },
+  {
+    "order_id": "d1d6da0b-6df4-4319-9e23-d6b984972113",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-06-02T00:00:00"
+  },
+  {
+    "order_id": "d1d6da0b-6df4-4319-9e23-d6b984972113",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-06-25T00:00:00"
+  },
+  {
+    "order_id": "d1d6da0b-6df4-4319-9e23-d6b984972113",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-06-16T00:00:00"
+  },
+  {
+    "order_id": "d1d6da0b-6df4-4319-9e23-d6b984972113",
+    "product_id": "d2d7a2a0-6709-5023-bb12-a34e97a1d1e3",
+    "sku": "SKU-021",
+    "occurred_at": "2026-06-28T00:00:00"
+  },
+  {
+    "order_id": "fd26de2f-8fb5-43fe-9d5d-b63492502e77",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-06-11T00:00:00"
+  },
+  {
+    "order_id": "fd26de2f-8fb5-43fe-9d5d-b63492502e77",
+    "product_id": "72bdb851-a746-558e-b9f7-cf73e620a03c",
+    "sku": "SKU-024",
+    "occurred_at": "2026-06-02T00:00:00"
+  },
+  {
+    "order_id": "ee6b86e4-dd6e-4de6-a478-06c419bafa7b",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-06-28T00:00:00"
+  },
+  {
+    "order_id": "ee6b86e4-dd6e-4de6-a478-06c419bafa7b",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-06-24T00:00:00"
+  },
+  {
+    "order_id": "ee6b86e4-dd6e-4de6-a478-06c419bafa7b",
+    "product_id": "d83e1a4d-d1b3-53f0-8a77-9757de5266e9",
+    "sku": "SKU-042",
+    "occurred_at": "2026-07-10T00:00:00"
+  },
+  {
+    "order_id": "ee6b86e4-dd6e-4de6-a478-06c419bafa7b",
+    "product_id": "d370571c-5782-530a-97fc-de8a22d80b39",
+    "sku": "SKU-041",
+    "occurred_at": "2026-07-27T00:00:00"
+  },
+  {
+    "order_id": "0ecea957-9b26-44c3-ae94-3273e370a17e",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-06-20T00:00:00"
+  },
+  {
+    "order_id": "0ecea957-9b26-44c3-ae94-3273e370a17e",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-06-01T00:00:00"
+  },
+  {
+    "order_id": "0ecea957-9b26-44c3-ae94-3273e370a17e",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-05-15T00:00:00"
+  },
+  {
+    "order_id": "0ecea957-9b26-44c3-ae94-3273e370a17e",
+    "product_id": "a7e04e72-8810-51c2-9095-24710fbc097d",
+    "sku": "SKU-034",
+    "occurred_at": "2026-07-08T00:00:00"
+  },
+  {
+    "order_id": "0ecea957-9b26-44c3-ae94-3273e370a17e",
+    "product_id": "269dfc3f-e648-558a-8d9b-56d8768973f4",
+    "sku": "SKU-011",
+    "occurred_at": "2026-06-26T00:00:00"
+  },
+  {
+    "order_id": "11b268a5-84c3-464a-8559-d46b27c7701b",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-05-17T00:00:00"
+  },
+  {
+    "order_id": "11b268a5-84c3-464a-8559-d46b27c7701b",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-06-21T00:00:00"
+  },
+  {
+    "order_id": "04a9355b-9960-450e-934e-8a9d47a8eee2",
+    "product_id": "3ce7d165-cb15-52bf-8ca3-d4c39a973f6e",
+    "sku": "SKU-018",
+    "occurred_at": "2026-06-06T00:00:00"
+  },
+  {
+    "order_id": "04a9355b-9960-450e-934e-8a9d47a8eee2",
+    "product_id": "d2d7a2a0-6709-5023-bb12-a34e97a1d1e3",
+    "sku": "SKU-021",
+    "occurred_at": "2026-05-30T00:00:00"
+  },
+  {
+    "order_id": "67bea6d6-2b46-4c6b-b62a-7a7f33d89cbd",
+    "product_id": "fc8a8760-54ad-5b83-88d2-ef95c635419c",
+    "sku": "SKU-035",
+    "occurred_at": "2026-05-26T00:00:00"
+  },
+  {
+    "order_id": "67bea6d6-2b46-4c6b-b62a-7a7f33d89cbd",
+    "product_id": "a85f16f9-1301-5b22-9cb6-12075535116f",
+    "sku": "SKU-019",
+    "occurred_at": "2026-06-07T00:00:00"
+  },
+  {
+    "order_id": "67bea6d6-2b46-4c6b-b62a-7a7f33d89cbd",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-08-10T00:00:00"
+  },
+  {
+    "order_id": "67bea6d6-2b46-4c6b-b62a-7a7f33d89cbd",
+    "product_id": "269dfc3f-e648-558a-8d9b-56d8768973f4",
+    "sku": "SKU-011",
+    "occurred_at": "2026-05-26T00:00:00"
+  },
+  {
+    "order_id": "18b59ccb-2ec1-4aab-9ac9-75a9e8a75d26",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-06-20T00:00:00"
+  },
+  {
+    "order_id": "18b59ccb-2ec1-4aab-9ac9-75a9e8a75d26",
+    "product_id": "addd5b27-08de-5d5e-a95b-c1c9bff7f43f",
+    "sku": "SKU-015",
+    "occurred_at": "2026-07-20T00:00:00"
+  },
+  {
+    "order_id": "18b59ccb-2ec1-4aab-9ac9-75a9e8a75d26",
+    "product_id": "bd02bf7b-edc0-5c54-b331-5b7ea08b87b0",
+    "sku": "SKU-032",
+    "occurred_at": "2026-07-22T00:00:00"
+  },
+  {
+    "order_id": "18b59ccb-2ec1-4aab-9ac9-75a9e8a75d26",
+    "product_id": "3ce7d165-cb15-52bf-8ca3-d4c39a973f6e",
+    "sku": "SKU-018",
+    "occurred_at": "2026-07-28T00:00:00"
+  },
+  {
+    "order_id": "e5002013-0fb8-478d-bbe4-8809edb2b431",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-07-21T00:00:00"
+  },
+  {
+    "order_id": "e5002013-0fb8-478d-bbe4-8809edb2b431",
+    "product_id": "f4ed3368-d5aa-58d5-942a-c3360f1f1c31",
+    "sku": "SKU-046",
+    "occurred_at": "2026-07-26T00:00:00"
+  },
+  {
+    "order_id": "e5002013-0fb8-478d-bbe4-8809edb2b431",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-05-29T00:00:00"
+  },
+  {
+    "order_id": "e5002013-0fb8-478d-bbe4-8809edb2b431",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-06-12T00:00:00"
+  },
+  {
+    "order_id": "94f0494a-6d90-4bf8-b700-d031da961f4f",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-06-05T00:00:00"
+  },
+  {
+    "order_id": "94f0494a-6d90-4bf8-b700-d031da961f4f",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-06-21T00:00:00"
+  },
+  {
+    "order_id": "94f0494a-6d90-4bf8-b700-d031da961f4f",
+    "product_id": "220a7e00-dac8-5898-bf86-a43a27155160",
+    "sku": "SKU-039",
+    "occurred_at": "2026-06-13T00:00:00"
+  },
+  {
+    "order_id": "94f0494a-6d90-4bf8-b700-d031da961f4f",
+    "product_id": "addd5b27-08de-5d5e-a95b-c1c9bff7f43f",
+    "sku": "SKU-015",
+    "occurred_at": "2026-07-21T00:00:00"
+  },
+  {
+    "order_id": "94f0494a-6d90-4bf8-b700-d031da961f4f",
+    "product_id": "72bdb851-a746-558e-b9f7-cf73e620a03c",
+    "sku": "SKU-024",
+    "occurred_at": "2026-07-15T00:00:00"
+  },
+  {
+    "order_id": "9706307d-2385-4b81-9f3a-a187189a66f3",
+    "product_id": "6e59d05c-eb0f-5f33-8dcc-d3f3b79a0c8c",
+    "sku": "SKU-044",
+    "occurred_at": "2026-05-28T00:00:00"
+  },
+  {
+    "order_id": "9706307d-2385-4b81-9f3a-a187189a66f3",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-08-03T00:00:00"
+  },
+  {
+    "order_id": "9706307d-2385-4b81-9f3a-a187189a66f3",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-08-09T00:00:00"
+  },
+  {
+    "order_id": "9706307d-2385-4b81-9f3a-a187189a66f3",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-06-04T00:00:00"
+  },
+  {
+    "order_id": "3ba6b670-7b76-41fd-97d2-0b87f6a387ea",
+    "product_id": "a7e04e72-8810-51c2-9095-24710fbc097d",
+    "sku": "SKU-034",
+    "occurred_at": "2026-07-23T00:00:00"
+  },
+  {
+    "order_id": "3ba6b670-7b76-41fd-97d2-0b87f6a387ea",
+    "product_id": "d272c854-faf3-53e0-a879-9c1039136510",
+    "sku": "SKU-047",
+    "occurred_at": "2026-06-17T00:00:00"
+  },
+  {
+    "order_id": "3ba6b670-7b76-41fd-97d2-0b87f6a387ea",
+    "product_id": "a37d5ec6-fb15-5aa7-96e3-fa6ae1141c23",
+    "sku": "SKU-014",
+    "occurred_at": "2026-08-04T00:00:00"
+  },
+  {
+    "order_id": "3ba6b670-7b76-41fd-97d2-0b87f6a387ea",
+    "product_id": "7d440a2f-3c01-575d-be1f-7aef2d4f8e9b",
+    "sku": "SKU-026",
+    "occurred_at": "2026-05-19T00:00:00"
+  },
+  {
+    "order_id": "0bdfb361-591c-45d9-b24b-f80fe8a411dc",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-05-31T00:00:00"
+  },
+  {
+    "order_id": "0bdfb361-591c-45d9-b24b-f80fe8a411dc",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-06-17T00:00:00"
+  },
+  {
+    "order_id": "0bdfb361-591c-45d9-b24b-f80fe8a411dc",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-08-04T00:00:00"
+  },
+  {
+    "order_id": "0bdfb361-591c-45d9-b24b-f80fe8a411dc",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-06-22T00:00:00"
+  },
+  {
+    "order_id": "0bdfb361-591c-45d9-b24b-f80fe8a411dc",
+    "product_id": "d2d7a2a0-6709-5023-bb12-a34e97a1d1e3",
+    "sku": "SKU-021",
+    "occurred_at": "2026-08-02T00:00:00"
+  },
+  {
+    "order_id": "4b1d9c22-28a2-420f-8fdd-78dc835371d4",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-06-03T00:00:00"
+  },
+  {
+    "order_id": "4b1d9c22-28a2-420f-8fdd-78dc835371d4",
+    "product_id": "a85f16f9-1301-5b22-9cb6-12075535116f",
+    "sku": "SKU-019",
+    "occurred_at": "2026-08-06T00:00:00"
+  },
+  {
+    "order_id": "4b1d9c22-28a2-420f-8fdd-78dc835371d4",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-07-17T00:00:00"
+  },
+  {
+    "order_id": "b55b6e03-dbf3-43be-a96c-b5c6e24d5628",
+    "product_id": "d83e1a4d-d1b3-53f0-8a77-9757de5266e9",
+    "sku": "SKU-042",
+    "occurred_at": "2026-08-08T00:00:00"
+  },
+  {
+    "order_id": "b55b6e03-dbf3-43be-a96c-b5c6e24d5628",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-07-16T00:00:00"
+  },
+  {
+    "order_id": "b55b6e03-dbf3-43be-a96c-b5c6e24d5628",
+    "product_id": "1a3830bb-83a6-5449-8016-1f8af884fb26",
+    "sku": "SKU-040",
+    "occurred_at": "2026-08-03T00:00:00"
+  },
+  {
+    "order_id": "b55b6e03-dbf3-43be-a96c-b5c6e24d5628",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-07-22T00:00:00"
+  },
+  {
+    "order_id": "b55b6e03-dbf3-43be-a96c-b5c6e24d5628",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-05-28T00:00:00"
+  },
+  {
+    "order_id": "b55b6e03-dbf3-43be-a96c-b5c6e24d5628",
+    "product_id": "1a6a9419-5b14-517b-b33e-f46cd9935ea5",
+    "sku": "SKU-043",
+    "occurred_at": "2026-08-10T00:00:00"
+  },
+  {
+    "order_id": "50536535-f69b-4d56-a019-efb68762a0f9",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-07-21T00:00:00"
+  },
+  {
+    "order_id": "50536535-f69b-4d56-a019-efb68762a0f9",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-07-23T00:00:00"
+  },
+  {
+    "order_id": "3cfe3899-2cf4-4ec7-94b0-f8cdb1d13664",
+    "product_id": "a85f16f9-1301-5b22-9cb6-12075535116f",
+    "sku": "SKU-019",
+    "occurred_at": "2026-05-20T00:00:00"
+  },
+  {
+    "order_id": "3cfe3899-2cf4-4ec7-94b0-f8cdb1d13664",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-07-17T00:00:00"
+  },
+  {
+    "order_id": "3cfe3899-2cf4-4ec7-94b0-f8cdb1d13664",
+    "product_id": "f4ed3368-d5aa-58d5-942a-c3360f1f1c31",
+    "sku": "SKU-046",
+    "occurred_at": "2026-08-11T00:00:00"
+  },
+  {
+    "order_id": "88359e8e-2cdb-4809-9465-f9f5695fefec",
+    "product_id": "bd02bf7b-edc0-5c54-b331-5b7ea08b87b0",
+    "sku": "SKU-032",
+    "occurred_at": "2026-06-15T00:00:00"
+  },
+  {
+    "order_id": "88359e8e-2cdb-4809-9465-f9f5695fefec",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-05-21T00:00:00"
+  },
+  {
+    "order_id": "dacae07a-0a38-4d69-af01-0e1c927ba6ee",
+    "product_id": "5e3e6384-61a6-567b-9703-059611ace791",
+    "sku": "SKU-038",
+    "occurred_at": "2026-05-28T00:00:00"
+  },
+  {
+    "order_id": "70e11f99-f3a9-4f4c-8319-931865d64ad9",
+    "product_id": "5e3e6384-61a6-567b-9703-059611ace791",
+    "sku": "SKU-038",
+    "occurred_at": "2026-05-23T00:00:00"
+  },
+  {
+    "order_id": "70e11f99-f3a9-4f4c-8319-931865d64ad9",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-05-23T00:00:00"
+  },
+  {
+    "order_id": "70e11f99-f3a9-4f4c-8319-931865d64ad9",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-05-26T00:00:00"
+  },
+  {
+    "order_id": "70e11f99-f3a9-4f4c-8319-931865d64ad9",
+    "product_id": "72bdb851-a746-558e-b9f7-cf73e620a03c",
+    "sku": "SKU-024",
+    "occurred_at": "2026-05-28T00:00:00"
+  },
+  {
+    "order_id": "ab078434-9299-4f52-8a38-faa62b4fbdeb",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-08-01T00:00:00"
+  },
+  {
+    "order_id": "2a30ccac-784c-4fc6-b384-7298c8caec50",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-07-24T00:00:00"
+  },
+  {
+    "order_id": "2a30ccac-784c-4fc6-b384-7298c8caec50",
+    "product_id": "d83e1a4d-d1b3-53f0-8a77-9757de5266e9",
+    "sku": "SKU-042",
+    "occurred_at": "2026-06-16T00:00:00"
+  },
+  {
+    "order_id": "2a30ccac-784c-4fc6-b384-7298c8caec50",
+    "product_id": "1350ebed-a5d4-52ae-bcf2-cb71b55e6d6f",
+    "sku": "SKU-033",
+    "occurred_at": "2026-08-09T00:00:00"
+  },
+  {
+    "order_id": "2a30ccac-784c-4fc6-b384-7298c8caec50",
+    "product_id": "5e3e6384-61a6-567b-9703-059611ace791",
+    "sku": "SKU-038",
+    "occurred_at": "2026-08-01T00:00:00"
+  },
+  {
+    "order_id": "2a30ccac-784c-4fc6-b384-7298c8caec50",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-07-07T00:00:00"
+  },
+  {
+    "order_id": "1321659a-4fe0-468c-afbd-e6925537ae06",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-08-10T00:00:00"
+  },
+  {
+    "order_id": "1321659a-4fe0-468c-afbd-e6925537ae06",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-07-06T00:00:00"
+  },
+  {
+    "order_id": "1321659a-4fe0-468c-afbd-e6925537ae06",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-07-27T00:00:00"
+  },
+  {
+    "order_id": "1321659a-4fe0-468c-afbd-e6925537ae06",
+    "product_id": "a85f16f9-1301-5b22-9cb6-12075535116f",
+    "sku": "SKU-019",
+    "occurred_at": "2026-05-26T00:00:00"
+  },
+  {
+    "order_id": "d63b07f9-d619-4d77-8f89-51edb0ccfde3",
+    "product_id": "addd5b27-08de-5d5e-a95b-c1c9bff7f43f",
+    "sku": "SKU-015",
+    "occurred_at": "2026-08-11T00:00:00"
+  },
+  {
+    "order_id": "d63b07f9-d619-4d77-8f89-51edb0ccfde3",
+    "product_id": "d2d7a2a0-6709-5023-bb12-a34e97a1d1e3",
+    "sku": "SKU-021",
+    "occurred_at": "2026-08-01T00:00:00"
+  },
+  {
+    "order_id": "d63b07f9-d619-4d77-8f89-51edb0ccfde3",
+    "product_id": "a85f16f9-1301-5b22-9cb6-12075535116f",
+    "sku": "SKU-019",
+    "occurred_at": "2026-05-24T00:00:00"
+  },
+  {
+    "order_id": "d63b07f9-d619-4d77-8f89-51edb0ccfde3",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-06-12T00:00:00"
+  },
+  {
+    "order_id": "d63b07f9-d619-4d77-8f89-51edb0ccfde3",
+    "product_id": "f0b2bc2e-bc70-5904-944f-fa6b3656f2c9",
+    "sku": "SKU-028",
+    "occurred_at": "2026-08-12T00:00:00"
+  },
+  {
+    "order_id": "d63b07f9-d619-4d77-8f89-51edb0ccfde3",
+    "product_id": "a85f16f9-1301-5b22-9cb6-12075535116f",
+    "sku": "SKU-019",
+    "occurred_at": "2026-07-07T00:00:00"
+  },
+  {
+    "order_id": "a0562212-5261-4fac-87fa-30b5f97ed7c7",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-08-07T00:00:00"
+  },
+  {
+    "order_id": "a0562212-5261-4fac-87fa-30b5f97ed7c7",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-06-01T00:00:00"
+  },
+  {
+    "order_id": "a0562212-5261-4fac-87fa-30b5f97ed7c7",
+    "product_id": "0517034f-2fa2-5b66-b6d0-333dbee47c35",
+    "sku": "SKU-045",
+    "occurred_at": "2026-05-16T00:00:00"
+  },
+  {
+    "order_id": "a0562212-5261-4fac-87fa-30b5f97ed7c7",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-06-02T00:00:00"
+  },
+  {
+    "order_id": "a0562212-5261-4fac-87fa-30b5f97ed7c7",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-05-26T00:00:00"
+  },
+  {
+    "order_id": "68880a68-db0d-4502-812a-87cfc651b1d0",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-07-01T00:00:00"
+  },
+  {
+    "order_id": "68880a68-db0d-4502-812a-87cfc651b1d0",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-08-12T00:00:00"
+  },
+  {
+    "order_id": "68880a68-db0d-4502-812a-87cfc651b1d0",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-07-22T00:00:00"
+  },
+  {
+    "order_id": "846876b4-f872-48ff-8af3-28308665495e",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-07-11T00:00:00"
+  },
+  {
+    "order_id": "846876b4-f872-48ff-8af3-28308665495e",
+    "product_id": "3ce7d165-cb15-52bf-8ca3-d4c39a973f6e",
+    "sku": "SKU-018",
+    "occurred_at": "2026-08-08T00:00:00"
+  },
+  {
+    "order_id": "846876b4-f872-48ff-8af3-28308665495e",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-05-20T00:00:00"
+  },
+  {
+    "order_id": "93daf0a7-115a-4949-96b9-60a87aa86403",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-08-10T00:00:00"
+  },
+  {
+    "order_id": "93daf0a7-115a-4949-96b9-60a87aa86403",
+    "product_id": "25a5ca15-302f-50c0-937b-d066f7340a4c",
+    "sku": "SKU-050",
+    "occurred_at": "2026-06-07T00:00:00"
+  },
+  {
+    "order_id": "93daf0a7-115a-4949-96b9-60a87aa86403",
+    "product_id": "7d440a2f-3c01-575d-be1f-7aef2d4f8e9b",
+    "sku": "SKU-026",
+    "occurred_at": "2026-05-17T00:00:00"
+  },
+  {
+    "order_id": "93daf0a7-115a-4949-96b9-60a87aa86403",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-07-06T00:00:00"
+  },
+  {
+    "order_id": "a2f53897-5de2-40ea-bde8-ab001fc248c3",
+    "product_id": "a8ffaa35-1c7c-5663-b245-a4fac74d25a9",
+    "sku": "SKU-023",
+    "occurred_at": "2026-05-25T00:00:00"
+  },
+  {
+    "order_id": "1acc630b-28c2-43e4-97a2-307960d896c3",
+    "product_id": "269dfc3f-e648-558a-8d9b-56d8768973f4",
+    "sku": "SKU-011",
+    "occurred_at": "2026-06-13T00:00:00"
+  },
+  {
+    "order_id": "1acc630b-28c2-43e4-97a2-307960d896c3",
+    "product_id": "6ffc6e88-4d13-554a-9b65-6d8137b51420",
+    "sku": "SKU-027",
+    "occurred_at": "2026-08-06T00:00:00"
+  },
+  {
+    "order_id": "1acc630b-28c2-43e4-97a2-307960d896c3",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-05-27T00:00:00"
+  },
+  {
+    "order_id": "03c179e0-e9d6-43bf-8333-55dd8db28a6f",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-05-30T00:00:00"
+  },
+  {
+    "order_id": "03c179e0-e9d6-43bf-8333-55dd8db28a6f",
+    "product_id": "3ce7d165-cb15-52bf-8ca3-d4c39a973f6e",
+    "sku": "SKU-018",
+    "occurred_at": "2026-07-19T00:00:00"
+  },
+  {
+    "order_id": "03c179e0-e9d6-43bf-8333-55dd8db28a6f",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-06-29T00:00:00"
+  },
+  {
+    "order_id": "03c179e0-e9d6-43bf-8333-55dd8db28a6f",
+    "product_id": "d272c854-faf3-53e0-a879-9c1039136510",
+    "sku": "SKU-047",
+    "occurred_at": "2026-08-09T00:00:00"
+  },
+  {
+    "order_id": "03c179e0-e9d6-43bf-8333-55dd8db28a6f",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-06-30T00:00:00"
+  },
+  {
+    "order_id": "03c179e0-e9d6-43bf-8333-55dd8db28a6f",
+    "product_id": "35ac0c09-5ba8-57e4-8940-d6361efad9ac",
+    "sku": "SKU-037",
+    "occurred_at": "2026-06-22T00:00:00"
+  },
+  {
+    "order_id": "20fed678-c52b-469d-baf7-7a534c5ba06a",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-08-07T00:00:00"
+  },
+  {
+    "order_id": "20fed678-c52b-469d-baf7-7a534c5ba06a",
+    "product_id": "229b1fe7-d3f0-5438-a003-940745c347ff",
+    "sku": "SKU-049",
+    "occurred_at": "2026-05-21T00:00:00"
+  },
+  {
+    "order_id": "20fed678-c52b-469d-baf7-7a534c5ba06a",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-08-05T00:00:00"
+  },
+  {
+    "order_id": "20fed678-c52b-469d-baf7-7a534c5ba06a",
+    "product_id": "a8ffaa35-1c7c-5663-b245-a4fac74d25a9",
+    "sku": "SKU-023",
+    "occurred_at": "2026-06-10T00:00:00"
+  },
+  {
+    "order_id": "20fed678-c52b-469d-baf7-7a534c5ba06a",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-07-07T00:00:00"
+  },
+  {
+    "order_id": "20fed678-c52b-469d-baf7-7a534c5ba06a",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-05-27T00:00:00"
+  },
+  {
+    "order_id": "9c1d2211-49ce-4531-ae98-9f8ee2fa27ee",
+    "product_id": "fc8a8760-54ad-5b83-88d2-ef95c635419c",
+    "sku": "SKU-035",
+    "occurred_at": "2026-06-23T00:00:00"
+  },
+  {
+    "order_id": "7ad0c9ca-0552-4bc5-99ce-1595754dedd1",
+    "product_id": "35ac0c09-5ba8-57e4-8940-d6361efad9ac",
+    "sku": "SKU-037",
+    "occurred_at": "2026-06-12T00:00:00"
+  },
+  {
+    "order_id": "7ad0c9ca-0552-4bc5-99ce-1595754dedd1",
+    "product_id": "1a6a9419-5b14-517b-b33e-f46cd9935ea5",
+    "sku": "SKU-043",
+    "occurred_at": "2026-05-29T00:00:00"
+  },
+  {
+    "order_id": "48f3bb98-7a6b-4bb3-9357-a04e4c613e03",
+    "product_id": "a37d5ec6-fb15-5aa7-96e3-fa6ae1141c23",
+    "sku": "SKU-014",
+    "occurred_at": "2026-07-25T00:00:00"
+  },
+  {
+    "order_id": "48f3bb98-7a6b-4bb3-9357-a04e4c613e03",
+    "product_id": "25a5ca15-302f-50c0-937b-d066f7340a4c",
+    "sku": "SKU-050",
+    "occurred_at": "2026-05-17T00:00:00"
+  },
+  {
+    "order_id": "48f3bb98-7a6b-4bb3-9357-a04e4c613e03",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-07-10T00:00:00"
+  },
+  {
+    "order_id": "48f3bb98-7a6b-4bb3-9357-a04e4c613e03",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-05-15T00:00:00"
+  },
+  {
+    "order_id": "48f3bb98-7a6b-4bb3-9357-a04e4c613e03",
+    "product_id": "1a3830bb-83a6-5449-8016-1f8af884fb26",
+    "sku": "SKU-040",
+    "occurred_at": "2026-05-24T00:00:00"
+  },
+  {
+    "order_id": "48f3bb98-7a6b-4bb3-9357-a04e4c613e03",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-05-23T00:00:00"
+  },
+  {
+    "order_id": "7cff74ac-d95b-4e97-becd-0aefe90f9494",
+    "product_id": "fc8a8760-54ad-5b83-88d2-ef95c635419c",
+    "sku": "SKU-035",
+    "occurred_at": "2026-08-07T00:00:00"
+  },
+  {
+    "order_id": "7cff74ac-d95b-4e97-becd-0aefe90f9494",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-05-20T00:00:00"
+  },
+  {
+    "order_id": "7cff74ac-d95b-4e97-becd-0aefe90f9494",
+    "product_id": "229b1fe7-d3f0-5438-a003-940745c347ff",
+    "sku": "SKU-049",
+    "occurred_at": "2026-08-01T00:00:00"
+  },
+  {
+    "order_id": "a17358d7-5c2f-40ae-8d4e-df0de3d994aa",
+    "product_id": "269dfc3f-e648-558a-8d9b-56d8768973f4",
+    "sku": "SKU-011",
+    "occurred_at": "2026-08-01T00:00:00"
+  },
+  {
+    "order_id": "a17358d7-5c2f-40ae-8d4e-df0de3d994aa",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-06-01T00:00:00"
+  },
+  {
+    "order_id": "a17358d7-5c2f-40ae-8d4e-df0de3d994aa",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-05-23T00:00:00"
+  },
+  {
+    "order_id": "a17358d7-5c2f-40ae-8d4e-df0de3d994aa",
+    "product_id": "a7e04e72-8810-51c2-9095-24710fbc097d",
+    "sku": "SKU-034",
+    "occurred_at": "2026-07-12T00:00:00"
+  },
+  {
+    "order_id": "a17358d7-5c2f-40ae-8d4e-df0de3d994aa",
+    "product_id": "1a6a9419-5b14-517b-b33e-f46cd9935ea5",
+    "sku": "SKU-043",
+    "occurred_at": "2026-07-14T00:00:00"
+  },
+  {
+    "order_id": "a17358d7-5c2f-40ae-8d4e-df0de3d994aa",
+    "product_id": "a8ffaa35-1c7c-5663-b245-a4fac74d25a9",
+    "sku": "SKU-023",
+    "occurred_at": "2026-07-07T00:00:00"
+  },
+  {
+    "order_id": "9431fa67-d439-49a6-95b5-7dc6c4219a33",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-06-09T00:00:00"
+  },
+  {
+    "order_id": "9431fa67-d439-49a6-95b5-7dc6c4219a33",
+    "product_id": "a6aef866-b043-52b8-a6e6-882008cf940c",
+    "sku": "SKU-025",
+    "occurred_at": "2026-08-10T00:00:00"
+  },
+  {
+    "order_id": "458dc2e1-8da1-4bc6-b93b-791fcc30d944",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-05-22T00:00:00"
+  },
+  {
+    "order_id": "458dc2e1-8da1-4bc6-b93b-791fcc30d944",
+    "product_id": "addd5b27-08de-5d5e-a95b-c1c9bff7f43f",
+    "sku": "SKU-015",
+    "occurred_at": "2026-08-10T00:00:00"
+  },
+  {
+    "order_id": "458dc2e1-8da1-4bc6-b93b-791fcc30d944",
+    "product_id": "6ffc6e88-4d13-554a-9b65-6d8137b51420",
+    "sku": "SKU-027",
+    "occurred_at": "2026-05-20T00:00:00"
+  },
+  {
+    "order_id": "458dc2e1-8da1-4bc6-b93b-791fcc30d944",
+    "product_id": "a6aef866-b043-52b8-a6e6-882008cf940c",
+    "sku": "SKU-025",
+    "occurred_at": "2026-06-22T00:00:00"
+  },
+  {
+    "order_id": "a3b0f480-9946-4e71-ae86-9be44ca81faa",
+    "product_id": "a8ffaa35-1c7c-5663-b245-a4fac74d25a9",
+    "sku": "SKU-023",
+    "occurred_at": "2026-06-12T00:00:00"
+  },
+  {
+    "order_id": "a3b0f480-9946-4e71-ae86-9be44ca81faa",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-05-23T00:00:00"
+  },
+  {
+    "order_id": "32959539-dc1e-412d-860a-03bda5011ac6",
+    "product_id": "3ce7d165-cb15-52bf-8ca3-d4c39a973f6e",
+    "sku": "SKU-018",
+    "occurred_at": "2026-06-30T00:00:00"
+  },
+  {
+    "order_id": "32959539-dc1e-412d-860a-03bda5011ac6",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-07-25T00:00:00"
+  },
+  {
+    "order_id": "32959539-dc1e-412d-860a-03bda5011ac6",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-06-11T00:00:00"
+  },
+  {
+    "order_id": "95595e38-7d12-4b9c-8624-7e76a62f885c",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-08-11T00:00:00"
+  },
+  {
+    "order_id": "95595e38-7d12-4b9c-8624-7e76a62f885c",
+    "product_id": "25a5ca15-302f-50c0-937b-d066f7340a4c",
+    "sku": "SKU-050",
+    "occurred_at": "2026-07-25T00:00:00"
+  },
+  {
+    "order_id": "95595e38-7d12-4b9c-8624-7e76a62f885c",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-08-09T00:00:00"
+  },
+  {
+    "order_id": "13e95043-73f0-42e6-bfbc-b6f5a6e559b5",
+    "product_id": "a7e04e72-8810-51c2-9095-24710fbc097d",
+    "sku": "SKU-034",
+    "occurred_at": "2026-07-31T00:00:00"
+  },
+  {
+    "order_id": "13e95043-73f0-42e6-bfbc-b6f5a6e559b5",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-06-04T00:00:00"
+  },
+  {
+    "order_id": "13e95043-73f0-42e6-bfbc-b6f5a6e559b5",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-06-19T00:00:00"
+  },
+  {
+    "order_id": "13e95043-73f0-42e6-bfbc-b6f5a6e559b5",
+    "product_id": "f4ed3368-d5aa-58d5-942a-c3360f1f1c31",
+    "sku": "SKU-046",
+    "occurred_at": "2026-08-08T00:00:00"
+  },
+  {
+    "order_id": "a1167627-1987-40b9-b399-96c8954bed20",
+    "product_id": "a7e04e72-8810-51c2-9095-24710fbc097d",
+    "sku": "SKU-034",
+    "occurred_at": "2026-08-02T00:00:00"
+  },
+  {
+    "order_id": "a1167627-1987-40b9-b399-96c8954bed20",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-06-19T00:00:00"
+  },
+  {
+    "order_id": "a1167627-1987-40b9-b399-96c8954bed20",
+    "product_id": "d272c854-faf3-53e0-a879-9c1039136510",
+    "sku": "SKU-047",
+    "occurred_at": "2026-06-02T00:00:00"
+  },
+  {
+    "order_id": "a1167627-1987-40b9-b399-96c8954bed20",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-05-17T00:00:00"
+  },
+  {
+    "order_id": "f59e3ced-440d-4f4e-92fe-60c614750af0",
+    "product_id": "a8ffaa35-1c7c-5663-b245-a4fac74d25a9",
+    "sku": "SKU-023",
+    "occurred_at": "2026-07-10T00:00:00"
+  },
+  {
+    "order_id": "f59e3ced-440d-4f4e-92fe-60c614750af0",
+    "product_id": "3ce7d165-cb15-52bf-8ca3-d4c39a973f6e",
+    "sku": "SKU-018",
+    "occurred_at": "2026-07-28T00:00:00"
+  },
+  {
+    "order_id": "9466d650-7cdc-4624-b752-735aabe42703",
+    "product_id": "bd02bf7b-edc0-5c54-b331-5b7ea08b87b0",
+    "sku": "SKU-032",
+    "occurred_at": "2026-06-14T00:00:00"
+  },
+  {
+    "order_id": "9466d650-7cdc-4624-b752-735aabe42703",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-06-22T00:00:00"
+  },
+  {
+    "order_id": "f3543070-0389-42bf-b887-0825629cc646",
+    "product_id": "d2d7a2a0-6709-5023-bb12-a34e97a1d1e3",
+    "sku": "SKU-021",
+    "occurred_at": "2026-06-07T00:00:00"
+  },
+  {
+    "order_id": "f8961d9a-ef0c-4545-accf-bc77e560fc55",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-07-18T00:00:00"
+  },
+  {
+    "order_id": "f8961d9a-ef0c-4545-accf-bc77e560fc55",
+    "product_id": "229b1fe7-d3f0-5438-a003-940745c347ff",
+    "sku": "SKU-049",
+    "occurred_at": "2026-06-25T00:00:00"
+  },
+  {
+    "order_id": "f8961d9a-ef0c-4545-accf-bc77e560fc55",
+    "product_id": "72bdb851-a746-558e-b9f7-cf73e620a03c",
+    "sku": "SKU-024",
+    "occurred_at": "2026-08-11T00:00:00"
+  },
+  {
+    "order_id": "f8961d9a-ef0c-4545-accf-bc77e560fc55",
+    "product_id": "4b302167-40da-584b-9e82-1f01d5d25337",
+    "sku": "SKU-029",
+    "occurred_at": "2026-06-04T00:00:00"
+  },
+  {
+    "order_id": "f8961d9a-ef0c-4545-accf-bc77e560fc55",
+    "product_id": "bd02bf7b-edc0-5c54-b331-5b7ea08b87b0",
+    "sku": "SKU-032",
+    "occurred_at": "2026-07-02T00:00:00"
+  },
+  {
+    "order_id": "f8961d9a-ef0c-4545-accf-bc77e560fc55",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-05-23T00:00:00"
+  },
+  {
+    "order_id": "ae62ecac-fd00-4598-a305-fe8722971bbc",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-07-03T00:00:00"
+  },
+  {
+    "order_id": "ae62ecac-fd00-4598-a305-fe8722971bbc",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-07-14T00:00:00"
+  },
+  {
+    "order_id": "ae62ecac-fd00-4598-a305-fe8722971bbc",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-06-11T00:00:00"
+  },
+  {
+    "order_id": "ae62ecac-fd00-4598-a305-fe8722971bbc",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-05-20T00:00:00"
+  },
+  {
+    "order_id": "b1e4aee4-b559-4e03-9643-f45d85cc56e5",
+    "product_id": "35ac0c09-5ba8-57e4-8940-d6361efad9ac",
+    "sku": "SKU-037",
+    "occurred_at": "2026-06-15T00:00:00"
+  },
+  {
+    "order_id": "b1e4aee4-b559-4e03-9643-f45d85cc56e5",
+    "product_id": "bd02bf7b-edc0-5c54-b331-5b7ea08b87b0",
+    "sku": "SKU-032",
+    "occurred_at": "2026-07-09T00:00:00"
+  },
+  {
+    "order_id": "b1e4aee4-b559-4e03-9643-f45d85cc56e5",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-07-14T00:00:00"
+  },
+  {
+    "order_id": "b1e4aee4-b559-4e03-9643-f45d85cc56e5",
+    "product_id": "a8ffaa35-1c7c-5663-b245-a4fac74d25a9",
+    "sku": "SKU-023",
+    "occurred_at": "2026-07-22T00:00:00"
+  },
+  {
+    "order_id": "b1e4aee4-b559-4e03-9643-f45d85cc56e5",
+    "product_id": "3ce7d165-cb15-52bf-8ca3-d4c39a973f6e",
+    "sku": "SKU-018",
+    "occurred_at": "2026-06-08T00:00:00"
+  },
+  {
+    "order_id": "b1e4aee4-b559-4e03-9643-f45d85cc56e5",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-05-15T00:00:00"
+  },
+  {
+    "order_id": "e17476b2-fdca-4d07-8261-ea95bb0376c7",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-06-08T00:00:00"
+  },
+  {
+    "order_id": "02520e18-8db2-43df-8fc8-da514281560c",
+    "product_id": "a7e04e72-8810-51c2-9095-24710fbc097d",
+    "sku": "SKU-034",
+    "occurred_at": "2026-05-23T00:00:00"
+  },
+  {
+    "order_id": "02520e18-8db2-43df-8fc8-da514281560c",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-06-05T00:00:00"
+  },
+  {
+    "order_id": "02520e18-8db2-43df-8fc8-da514281560c",
+    "product_id": "d83e1a4d-d1b3-53f0-8a77-9757de5266e9",
+    "sku": "SKU-042",
+    "occurred_at": "2026-08-04T00:00:00"
+  },
+  {
+    "order_id": "9aeab2ff-15e5-4fae-abf9-2a67d017ca35",
+    "product_id": "0df9b010-c350-549f-9310-b196d131d93d",
+    "sku": "SKU-017",
+    "occurred_at": "2026-07-18T00:00:00"
+  },
+  {
+    "order_id": "9aeab2ff-15e5-4fae-abf9-2a67d017ca35",
+    "product_id": "d83e1a4d-d1b3-53f0-8a77-9757de5266e9",
+    "sku": "SKU-042",
+    "occurred_at": "2026-06-26T00:00:00"
+  },
+  {
+    "order_id": "9aeab2ff-15e5-4fae-abf9-2a67d017ca35",
+    "product_id": "0517034f-2fa2-5b66-b6d0-333dbee47c35",
+    "sku": "SKU-045",
+    "occurred_at": "2026-05-27T00:00:00"
+  },
+  {
+    "order_id": "9aeab2ff-15e5-4fae-abf9-2a67d017ca35",
+    "product_id": "3ce7d165-cb15-52bf-8ca3-d4c39a973f6e",
+    "sku": "SKU-018",
+    "occurred_at": "2026-07-21T00:00:00"
+  },
+  {
+    "order_id": "d473b59d-a80a-4fd4-871c-b4fda53212a0",
+    "product_id": "0df9b010-c350-549f-9310-b196d131d93d",
+    "sku": "SKU-017",
+    "occurred_at": "2026-07-07T00:00:00"
+  },
+  {
+    "order_id": "17833a72-2fe4-4caf-98d3-cede7df4166f",
+    "product_id": "d2d7a2a0-6709-5023-bb12-a34e97a1d1e3",
+    "sku": "SKU-021",
+    "occurred_at": "2026-08-09T00:00:00"
+  },
+  {
+    "order_id": "0245fd26-5027-4952-a5d7-9bf169f389e9",
+    "product_id": "5f0dc79d-d537-54e3-b928-16d44126c3e4",
+    "sku": "SKU-016",
+    "occurred_at": "2026-08-04T00:00:00"
+  },
+  {
+    "order_id": "0245fd26-5027-4952-a5d7-9bf169f389e9",
+    "product_id": "220a7e00-dac8-5898-bf86-a43a27155160",
+    "sku": "SKU-039",
+    "occurred_at": "2026-07-20T00:00:00"
+  },
+  {
+    "order_id": "0245fd26-5027-4952-a5d7-9bf169f389e9",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-08-05T00:00:00"
+  },
+  {
+    "order_id": "45b9b430-b5d1-450d-8240-b214a0be61ff",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-06-20T00:00:00"
+  },
+  {
+    "order_id": "45b9b430-b5d1-450d-8240-b214a0be61ff",
+    "product_id": "4b302167-40da-584b-9e82-1f01d5d25337",
+    "sku": "SKU-029",
+    "occurred_at": "2026-05-23T00:00:00"
+  },
+  {
+    "order_id": "45b9b430-b5d1-450d-8240-b214a0be61ff",
+    "product_id": "f4ed3368-d5aa-58d5-942a-c3360f1f1c31",
+    "sku": "SKU-046",
+    "occurred_at": "2026-07-05T00:00:00"
+  },
+  {
+    "order_id": "45b9b430-b5d1-450d-8240-b214a0be61ff",
+    "product_id": "bd02bf7b-edc0-5c54-b331-5b7ea08b87b0",
+    "sku": "SKU-032",
+    "occurred_at": "2026-05-17T00:00:00"
+  },
+  {
+    "order_id": "f83ade88-63f4-4b36-91df-424ed8e730cc",
+    "product_id": "f4ed3368-d5aa-58d5-942a-c3360f1f1c31",
+    "sku": "SKU-046",
+    "occurred_at": "2026-07-01T00:00:00"
+  },
+  {
+    "order_id": "f83ade88-63f4-4b36-91df-424ed8e730cc",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-05-23T00:00:00"
+  },
+  {
+    "order_id": "f83ade88-63f4-4b36-91df-424ed8e730cc",
+    "product_id": "d83e1a4d-d1b3-53f0-8a77-9757de5266e9",
+    "sku": "SKU-042",
+    "occurred_at": "2026-05-20T00:00:00"
+  },
+  {
+    "order_id": "f83ade88-63f4-4b36-91df-424ed8e730cc",
+    "product_id": "5057a11a-7f5d-543a-b3e0-2df6b0d9d349",
+    "sku": "SKU-030",
+    "occurred_at": "2026-05-18T00:00:00"
+  },
+  {
+    "order_id": "f83ade88-63f4-4b36-91df-424ed8e730cc",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-07-23T00:00:00"
+  },
+  {
+    "order_id": "f83ade88-63f4-4b36-91df-424ed8e730cc",
+    "product_id": "1350ebed-a5d4-52ae-bcf2-cb71b55e6d6f",
+    "sku": "SKU-033",
+    "occurred_at": "2026-07-03T00:00:00"
+  },
+  {
+    "order_id": "663384a3-64b2-4274-b508-40103ba143f3",
+    "product_id": "1a6a9419-5b14-517b-b33e-f46cd9935ea5",
+    "sku": "SKU-043",
+    "occurred_at": "2026-05-22T00:00:00"
+  },
+  {
+    "order_id": "9ab82a90-cc86-41ba-8aeb-0a76f5656b8e",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-08-06T00:00:00"
+  },
+  {
+    "order_id": "9ab82a90-cc86-41ba-8aeb-0a76f5656b8e",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-07-17T00:00:00"
+  },
+  {
+    "order_id": "9ab82a90-cc86-41ba-8aeb-0a76f5656b8e",
+    "product_id": "f4ed3368-d5aa-58d5-942a-c3360f1f1c31",
+    "sku": "SKU-046",
+    "occurred_at": "2026-07-07T00:00:00"
+  },
+  {
+    "order_id": "9ab82a90-cc86-41ba-8aeb-0a76f5656b8e",
+    "product_id": "72bdb851-a746-558e-b9f7-cf73e620a03c",
+    "sku": "SKU-024",
+    "occurred_at": "2026-05-16T00:00:00"
+  },
+  {
+    "order_id": "9ab82a90-cc86-41ba-8aeb-0a76f5656b8e",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-05-17T00:00:00"
+  },
+  {
+    "order_id": "8da7871e-73a0-4c26-b913-441ddc7fd810",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-06-25T00:00:00"
+  },
+  {
+    "order_id": "8da7871e-73a0-4c26-b913-441ddc7fd810",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-06-25T00:00:00"
+  },
+  {
+    "order_id": "8da7871e-73a0-4c26-b913-441ddc7fd810",
+    "product_id": "1350ebed-a5d4-52ae-bcf2-cb71b55e6d6f",
+    "sku": "SKU-033",
+    "occurred_at": "2026-06-03T00:00:00"
+  },
+  {
+    "order_id": "8da7871e-73a0-4c26-b913-441ddc7fd810",
+    "product_id": "fc8a8760-54ad-5b83-88d2-ef95c635419c",
+    "sku": "SKU-035",
+    "occurred_at": "2026-05-30T00:00:00"
+  },
+  {
+    "order_id": "0c99857d-fbf8-497b-8072-2bed4d0ab75f",
+    "product_id": "fc8a8760-54ad-5b83-88d2-ef95c635419c",
+    "sku": "SKU-035",
+    "occurred_at": "2026-07-18T00:00:00"
+  },
+  {
+    "order_id": "ab17e503-b4d5-44ee-8f01-d600fd7ae3b7",
+    "product_id": "a7e04e72-8810-51c2-9095-24710fbc097d",
+    "sku": "SKU-034",
+    "occurred_at": "2026-07-24T00:00:00"
+  },
+  {
+    "order_id": "ab17e503-b4d5-44ee-8f01-d600fd7ae3b7",
+    "product_id": "1a3830bb-83a6-5449-8016-1f8af884fb26",
+    "sku": "SKU-040",
+    "occurred_at": "2026-07-08T00:00:00"
+  },
+  {
+    "order_id": "ab17e503-b4d5-44ee-8f01-d600fd7ae3b7",
+    "product_id": "d83e1a4d-d1b3-53f0-8a77-9757de5266e9",
+    "sku": "SKU-042",
+    "occurred_at": "2026-06-05T00:00:00"
+  },
+  {
+    "order_id": "ab17e503-b4d5-44ee-8f01-d600fd7ae3b7",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-07-15T00:00:00"
+  },
+  {
+    "order_id": "ab17e503-b4d5-44ee-8f01-d600fd7ae3b7",
+    "product_id": "0517034f-2fa2-5b66-b6d0-333dbee47c35",
+    "sku": "SKU-045",
+    "occurred_at": "2026-07-20T00:00:00"
+  },
+  {
+    "order_id": "ab17e503-b4d5-44ee-8f01-d600fd7ae3b7",
+    "product_id": "fc8a8760-54ad-5b83-88d2-ef95c635419c",
+    "sku": "SKU-035",
+    "occurred_at": "2026-06-07T00:00:00"
+  },
+  {
+    "order_id": "68a9781b-f3cc-4d86-b947-49b0aa5f3eb4",
+    "product_id": "7d440a2f-3c01-575d-be1f-7aef2d4f8e9b",
+    "sku": "SKU-026",
+    "occurred_at": "2026-06-24T00:00:00"
+  },
+  {
+    "order_id": "68a9781b-f3cc-4d86-b947-49b0aa5f3eb4",
+    "product_id": "0df9b010-c350-549f-9310-b196d131d93d",
+    "sku": "SKU-017",
+    "occurred_at": "2026-07-26T00:00:00"
+  },
+  {
+    "order_id": "038337ca-e086-4194-a976-dd90d133a67d",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-06-09T00:00:00"
+  },
+  {
+    "order_id": "038337ca-e086-4194-a976-dd90d133a67d",
+    "product_id": "1a6a9419-5b14-517b-b33e-f46cd9935ea5",
+    "sku": "SKU-043",
+    "occurred_at": "2026-07-12T00:00:00"
+  },
+  {
+    "order_id": "038337ca-e086-4194-a976-dd90d133a67d",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-07-04T00:00:00"
+  },
+  {
+    "order_id": "038337ca-e086-4194-a976-dd90d133a67d",
+    "product_id": "3ce7d165-cb15-52bf-8ca3-d4c39a973f6e",
+    "sku": "SKU-018",
+    "occurred_at": "2026-05-29T00:00:00"
+  },
+  {
+    "order_id": "038337ca-e086-4194-a976-dd90d133a67d",
+    "product_id": "5057a11a-7f5d-543a-b3e0-2df6b0d9d349",
+    "sku": "SKU-030",
+    "occurred_at": "2026-05-20T00:00:00"
+  },
+  {
+    "order_id": "3d962eb5-b719-4847-83ab-826b9db71592",
+    "product_id": "3ce7d165-cb15-52bf-8ca3-d4c39a973f6e",
+    "sku": "SKU-018",
+    "occurred_at": "2026-05-20T00:00:00"
+  },
+  {
+    "order_id": "3d962eb5-b719-4847-83ab-826b9db71592",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-07-20T00:00:00"
+  },
+  {
+    "order_id": "3d962eb5-b719-4847-83ab-826b9db71592",
+    "product_id": "5f0dc79d-d537-54e3-b928-16d44126c3e4",
+    "sku": "SKU-016",
+    "occurred_at": "2026-07-27T00:00:00"
+  },
+  {
+    "order_id": "3d962eb5-b719-4847-83ab-826b9db71592",
+    "product_id": "f0b2bc2e-bc70-5904-944f-fa6b3656f2c9",
+    "sku": "SKU-028",
+    "occurred_at": "2026-05-30T00:00:00"
+  },
+  {
+    "order_id": "3d962eb5-b719-4847-83ab-826b9db71592",
+    "product_id": "7d440a2f-3c01-575d-be1f-7aef2d4f8e9b",
+    "sku": "SKU-026",
+    "occurred_at": "2026-06-16T00:00:00"
+  },
+  {
+    "order_id": "3d962eb5-b719-4847-83ab-826b9db71592",
+    "product_id": "269dfc3f-e648-558a-8d9b-56d8768973f4",
+    "sku": "SKU-011",
+    "occurred_at": "2026-06-13T00:00:00"
+  },
+  {
+    "order_id": "f360b820-2b06-4fb2-9379-6e377e94e0f6",
+    "product_id": "d370571c-5782-530a-97fc-de8a22d80b39",
+    "sku": "SKU-041",
+    "occurred_at": "2026-06-27T00:00:00"
+  },
+  {
+    "order_id": "f360b820-2b06-4fb2-9379-6e377e94e0f6",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-07-03T00:00:00"
+  },
+  {
+    "order_id": "a3f2280d-d5f2-4e50-b962-8af881051d3d",
+    "product_id": "3ce7d165-cb15-52bf-8ca3-d4c39a973f6e",
+    "sku": "SKU-018",
+    "occurred_at": "2026-07-20T00:00:00"
+  },
+  {
+    "order_id": "a3f2280d-d5f2-4e50-b962-8af881051d3d",
+    "product_id": "a8ffaa35-1c7c-5663-b245-a4fac74d25a9",
+    "sku": "SKU-023",
+    "occurred_at": "2026-06-24T00:00:00"
+  },
+  {
+    "order_id": "a3f2280d-d5f2-4e50-b962-8af881051d3d",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-06-20T00:00:00"
+  },
+  {
+    "order_id": "a3f2280d-d5f2-4e50-b962-8af881051d3d",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-05-17T00:00:00"
+  },
+  {
+    "order_id": "ffa9d3f2-92af-4035-a0a4-375ae0955538",
+    "product_id": "5f0dc79d-d537-54e3-b928-16d44126c3e4",
+    "sku": "SKU-016",
+    "occurred_at": "2026-05-23T00:00:00"
+  },
+  {
+    "order_id": "ffa9d3f2-92af-4035-a0a4-375ae0955538",
+    "product_id": "269dfc3f-e648-558a-8d9b-56d8768973f4",
+    "sku": "SKU-011",
+    "occurred_at": "2026-07-03T00:00:00"
+  },
+  {
+    "order_id": "ffa9d3f2-92af-4035-a0a4-375ae0955538",
+    "product_id": "6ffc6e88-4d13-554a-9b65-6d8137b51420",
+    "sku": "SKU-027",
+    "occurred_at": "2026-06-19T00:00:00"
+  },
+  {
+    "order_id": "ffa9d3f2-92af-4035-a0a4-375ae0955538",
+    "product_id": "72bdb851-a746-558e-b9f7-cf73e620a03c",
+    "sku": "SKU-024",
+    "occurred_at": "2026-07-29T00:00:00"
+  },
+  {
+    "order_id": "39119145-d5c0-4a7a-9fbb-e82c056e8f62",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-06-24T00:00:00"
+  },
+  {
+    "order_id": "39119145-d5c0-4a7a-9fbb-e82c056e8f62",
+    "product_id": "269dfc3f-e648-558a-8d9b-56d8768973f4",
+    "sku": "SKU-011",
+    "occurred_at": "2026-07-09T00:00:00"
+  },
+  {
+    "order_id": "39119145-d5c0-4a7a-9fbb-e82c056e8f62",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-06-21T00:00:00"
+  },
+  {
+    "order_id": "d3301ccc-6ef5-4036-9f25-8c748c05c380",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-06-12T00:00:00"
+  },
+  {
+    "order_id": "d3301ccc-6ef5-4036-9f25-8c748c05c380",
+    "product_id": "a37d5ec6-fb15-5aa7-96e3-fa6ae1141c23",
+    "sku": "SKU-014",
+    "occurred_at": "2026-05-22T00:00:00"
+  },
+  {
+    "order_id": "d3301ccc-6ef5-4036-9f25-8c748c05c380",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-07-29T00:00:00"
+  },
+  {
+    "order_id": "d3301ccc-6ef5-4036-9f25-8c748c05c380",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-07-04T00:00:00"
+  },
+  {
+    "order_id": "d3301ccc-6ef5-4036-9f25-8c748c05c380",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-07-06T00:00:00"
+  },
+  {
+    "order_id": "d3301ccc-6ef5-4036-9f25-8c748c05c380",
+    "product_id": "1a3830bb-83a6-5449-8016-1f8af884fb26",
+    "sku": "SKU-040",
+    "occurred_at": "2026-07-16T00:00:00"
+  },
+  {
+    "order_id": "a41ed0ea-d498-4178-98a6-736fd9ac6fcc",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-07-15T00:00:00"
+  },
+  {
+    "order_id": "a41ed0ea-d498-4178-98a6-736fd9ac6fcc",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-06-14T00:00:00"
+  },
+  {
+    "order_id": "a41ed0ea-d498-4178-98a6-736fd9ac6fcc",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-06-03T00:00:00"
+  },
+  {
+    "order_id": "a41ed0ea-d498-4178-98a6-736fd9ac6fcc",
+    "product_id": "1a6a9419-5b14-517b-b33e-f46cd9935ea5",
+    "sku": "SKU-043",
+    "occurred_at": "2026-05-15T00:00:00"
+  },
+  {
+    "order_id": "d9fa7949-faef-4e5f-bedc-812892306ed4",
+    "product_id": "25a5ca15-302f-50c0-937b-d066f7340a4c",
+    "sku": "SKU-050",
+    "occurred_at": "2026-07-19T00:00:00"
+  },
+  {
+    "order_id": "d9fa7949-faef-4e5f-bedc-812892306ed4",
+    "product_id": "5e3e6384-61a6-567b-9703-059611ace791",
+    "sku": "SKU-038",
+    "occurred_at": "2026-05-29T00:00:00"
+  },
+  {
+    "order_id": "d9fa7949-faef-4e5f-bedc-812892306ed4",
+    "product_id": "d6164dc6-88dc-5061-bc3a-8d44685e0252",
+    "sku": "SKU-048",
+    "occurred_at": "2026-07-31T00:00:00"
+  },
+  {
+    "order_id": "d9fa7949-faef-4e5f-bedc-812892306ed4",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-06-09T00:00:00"
+  },
+  {
+    "order_id": "d9fa7949-faef-4e5f-bedc-812892306ed4",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-08-05T00:00:00"
+  },
+  {
+    "order_id": "eb0f2b1c-139c-494e-8ea2-00b60306b0b4",
+    "product_id": "1350ebed-a5d4-52ae-bcf2-cb71b55e6d6f",
+    "sku": "SKU-033",
+    "occurred_at": "2026-05-16T00:00:00"
+  },
+  {
+    "order_id": "eb0f2b1c-139c-494e-8ea2-00b60306b0b4",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-05-15T00:00:00"
+  },
+  {
+    "order_id": "eb0f2b1c-139c-494e-8ea2-00b60306b0b4",
+    "product_id": "a6aef866-b043-52b8-a6e6-882008cf940c",
+    "sku": "SKU-025",
+    "occurred_at": "2026-08-08T00:00:00"
+  },
+  {
+    "order_id": "eb0f2b1c-139c-494e-8ea2-00b60306b0b4",
+    "product_id": "d6164dc6-88dc-5061-bc3a-8d44685e0252",
+    "sku": "SKU-048",
+    "occurred_at": "2026-06-24T00:00:00"
+  },
+  {
+    "order_id": "eb0f2b1c-139c-494e-8ea2-00b60306b0b4",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-07-26T00:00:00"
+  },
+  {
+    "order_id": "3396a5d8-7d91-4b5e-8f2c-4a440c634733",
+    "product_id": "6e59d05c-eb0f-5f33-8dcc-d3f3b79a0c8c",
+    "sku": "SKU-044",
+    "occurred_at": "2026-06-14T00:00:00"
+  },
+  {
+    "order_id": "3396a5d8-7d91-4b5e-8f2c-4a440c634733",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-06-26T00:00:00"
+  },
+  {
+    "order_id": "3396a5d8-7d91-4b5e-8f2c-4a440c634733",
+    "product_id": "6ffc6e88-4d13-554a-9b65-6d8137b51420",
+    "sku": "SKU-027",
+    "occurred_at": "2026-07-08T00:00:00"
+  },
+  {
+    "order_id": "3396a5d8-7d91-4b5e-8f2c-4a440c634733",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-06-27T00:00:00"
+  },
+  {
+    "order_id": "3396a5d8-7d91-4b5e-8f2c-4a440c634733",
+    "product_id": "1350ebed-a5d4-52ae-bcf2-cb71b55e6d6f",
+    "sku": "SKU-033",
+    "occurred_at": "2026-05-26T00:00:00"
+  },
+  {
+    "order_id": "3396a5d8-7d91-4b5e-8f2c-4a440c634733",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-07-21T00:00:00"
+  },
+  {
+    "order_id": "945df83f-66a7-4ff8-b740-7de6476417ee",
+    "product_id": "35ac0c09-5ba8-57e4-8940-d6361efad9ac",
+    "sku": "SKU-037",
+    "occurred_at": "2026-05-29T00:00:00"
+  },
+  {
+    "order_id": "b478f3f0-03e8-4049-b54a-be12576f6ccd",
+    "product_id": "25a5ca15-302f-50c0-937b-d066f7340a4c",
+    "sku": "SKU-050",
+    "occurred_at": "2026-06-18T00:00:00"
+  },
+  {
+    "order_id": "b478f3f0-03e8-4049-b54a-be12576f6ccd",
+    "product_id": "1a3830bb-83a6-5449-8016-1f8af884fb26",
+    "sku": "SKU-040",
+    "occurred_at": "2026-05-28T00:00:00"
+  },
+  {
+    "order_id": "b478f3f0-03e8-4049-b54a-be12576f6ccd",
+    "product_id": "25a5ca15-302f-50c0-937b-d066f7340a4c",
+    "sku": "SKU-050",
+    "occurred_at": "2026-05-28T00:00:00"
+  },
+  {
+    "order_id": "b478f3f0-03e8-4049-b54a-be12576f6ccd",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-06-27T00:00:00"
+  },
+  {
+    "order_id": "b478f3f0-03e8-4049-b54a-be12576f6ccd",
+    "product_id": "d338c8f7-e2c1-5249-a4f9-c56c4c303468",
+    "sku": "SKU-031",
+    "occurred_at": "2026-07-23T00:00:00"
+  },
+  {
+    "order_id": "b478f3f0-03e8-4049-b54a-be12576f6ccd",
+    "product_id": "4b302167-40da-584b-9e82-1f01d5d25337",
+    "sku": "SKU-029",
+    "occurred_at": "2026-05-26T00:00:00"
+  },
+  {
+    "order_id": "fefbd87b-da96-437c-beb3-5bb51e3dbab4",
+    "product_id": "6ffc6e88-4d13-554a-9b65-6d8137b51420",
+    "sku": "SKU-027",
+    "occurred_at": "2026-07-06T00:00:00"
+  },
+  {
+    "order_id": "fefbd87b-da96-437c-beb3-5bb51e3dbab4",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-08-11T00:00:00"
+  },
+  {
+    "order_id": "31504372-7b7e-4978-8147-177e3932a62e",
+    "product_id": "269dfc3f-e648-558a-8d9b-56d8768973f4",
+    "sku": "SKU-011",
+    "occurred_at": "2026-05-29T00:00:00"
+  },
+  {
+    "order_id": "31504372-7b7e-4978-8147-177e3932a62e",
+    "product_id": "2e1edade-4bf7-54bd-acb8-9d691be2d74d",
+    "sku": "SKU-036",
+    "occurred_at": "2026-06-09T00:00:00"
+  },
+  {
+    "order_id": "31504372-7b7e-4978-8147-177e3932a62e",
+    "product_id": "5f0dc79d-d537-54e3-b928-16d44126c3e4",
+    "sku": "SKU-016",
+    "occurred_at": "2026-07-20T00:00:00"
+  },
+  {
+    "order_id": "31504372-7b7e-4978-8147-177e3932a62e",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-07-20T00:00:00"
+  },
+  {
+    "order_id": "31504372-7b7e-4978-8147-177e3932a62e",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-07-30T00:00:00"
+  },
+  {
+    "order_id": "31504372-7b7e-4978-8147-177e3932a62e",
+    "product_id": "1350ebed-a5d4-52ae-bcf2-cb71b55e6d6f",
+    "sku": "SKU-033",
+    "occurred_at": "2026-07-31T00:00:00"
+  },
+  {
+    "order_id": "b3b7e8d5-30b5-4eb4-a405-c7c039ef8e26",
+    "product_id": "5f0dc79d-d537-54e3-b928-16d44126c3e4",
+    "sku": "SKU-016",
+    "occurred_at": "2026-07-10T00:00:00"
+  },
+  {
+    "order_id": "b3b7e8d5-30b5-4eb4-a405-c7c039ef8e26",
+    "product_id": "25a5ca15-302f-50c0-937b-d066f7340a4c",
+    "sku": "SKU-050",
+    "occurred_at": "2026-05-21T00:00:00"
+  },
+  {
+    "order_id": "b3b7e8d5-30b5-4eb4-a405-c7c039ef8e26",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-06-10T00:00:00"
+  },
+  {
+    "order_id": "b3b7e8d5-30b5-4eb4-a405-c7c039ef8e26",
+    "product_id": "fc8a8760-54ad-5b83-88d2-ef95c635419c",
+    "sku": "SKU-035",
+    "occurred_at": "2026-06-30T00:00:00"
+  },
+  {
+    "order_id": "b3b7e8d5-30b5-4eb4-a405-c7c039ef8e26",
+    "product_id": "a37d5ec6-fb15-5aa7-96e3-fa6ae1141c23",
+    "sku": "SKU-014",
+    "occurred_at": "2026-05-20T00:00:00"
+  },
+  {
+    "order_id": "4239d53e-05e3-4dc9-ada7-273942da7372",
+    "product_id": "a85f16f9-1301-5b22-9cb6-12075535116f",
+    "sku": "SKU-019",
+    "occurred_at": "2026-08-08T00:00:00"
+  },
+  {
+    "order_id": "4239d53e-05e3-4dc9-ada7-273942da7372",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-07-17T00:00:00"
+  },
+  {
+    "order_id": "4239d53e-05e3-4dc9-ada7-273942da7372",
+    "product_id": "a8ffaa35-1c7c-5663-b245-a4fac74d25a9",
+    "sku": "SKU-023",
+    "occurred_at": "2026-08-11T00:00:00"
+  },
+  {
+    "order_id": "4239d53e-05e3-4dc9-ada7-273942da7372",
+    "product_id": "a85f16f9-1301-5b22-9cb6-12075535116f",
+    "sku": "SKU-019",
+    "occurred_at": "2026-08-02T00:00:00"
+  },
+  {
+    "order_id": "1f329841-8f0b-466c-9e5f-ca1dc4793890",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-06-27T00:00:00"
+  },
+  {
+    "order_id": "1f329841-8f0b-466c-9e5f-ca1dc4793890",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-07-31T00:00:00"
+  },
+  {
+    "order_id": "1f329841-8f0b-466c-9e5f-ca1dc4793890",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-07-04T00:00:00"
+  },
+  {
+    "order_id": "1f329841-8f0b-466c-9e5f-ca1dc4793890",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-07-27T00:00:00"
+  },
+  {
+    "order_id": "1f329841-8f0b-466c-9e5f-ca1dc4793890",
+    "product_id": "d272c854-faf3-53e0-a879-9c1039136510",
+    "sku": "SKU-047",
+    "occurred_at": "2026-06-03T00:00:00"
+  },
+  {
+    "order_id": "4db49452-e5e9-46a1-bffd-b4c27b748a02",
+    "product_id": "1a3830bb-83a6-5449-8016-1f8af884fb26",
+    "sku": "SKU-040",
+    "occurred_at": "2026-06-01T00:00:00"
+  },
+  {
+    "order_id": "4db49452-e5e9-46a1-bffd-b4c27b748a02",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-07-23T00:00:00"
+  },
+  {
+    "order_id": "4db49452-e5e9-46a1-bffd-b4c27b748a02",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-06-21T00:00:00"
+  },
+  {
+    "order_id": "fc52be0a-8da1-4111-9928-862b4527c03b",
+    "product_id": "a8ffaa35-1c7c-5663-b245-a4fac74d25a9",
+    "sku": "SKU-023",
+    "occurred_at": "2026-07-27T00:00:00"
+  },
+  {
+    "order_id": "fc52be0a-8da1-4111-9928-862b4527c03b",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-06-18T00:00:00"
+  },
+  {
+    "order_id": "fc52be0a-8da1-4111-9928-862b4527c03b",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-07-16T00:00:00"
+  },
+  {
+    "order_id": "35619d60-0cc0-4b7a-babe-395c8548de9d",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-06-16T00:00:00"
+  },
+  {
+    "order_id": "510cc6e0-ef41-4261-815f-223cea70e62b",
+    "product_id": "f4ed3368-d5aa-58d5-942a-c3360f1f1c31",
+    "sku": "SKU-046",
+    "occurred_at": "2026-08-08T00:00:00"
+  },
+  {
+    "order_id": "1e65f43e-f71a-4789-a9e7-b5085f6f86ce",
+    "product_id": "a37d5ec6-fb15-5aa7-96e3-fa6ae1141c23",
+    "sku": "SKU-014",
+    "occurred_at": "2026-06-22T00:00:00"
+  },
+  {
+    "order_id": "1e65f43e-f71a-4789-a9e7-b5085f6f86ce",
+    "product_id": "d272c854-faf3-53e0-a879-9c1039136510",
+    "sku": "SKU-047",
+    "occurred_at": "2026-05-17T00:00:00"
+  },
+  {
+    "order_id": "6441c494-c575-4be9-a39c-ed28287c758e",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-05-28T00:00:00"
+  },
+  {
+    "order_id": "6441c494-c575-4be9-a39c-ed28287c758e",
+    "product_id": "addd5b27-08de-5d5e-a95b-c1c9bff7f43f",
+    "sku": "SKU-015",
+    "occurred_at": "2026-06-19T00:00:00"
+  },
+  {
+    "order_id": "6441c494-c575-4be9-a39c-ed28287c758e",
+    "product_id": "d272c854-faf3-53e0-a879-9c1039136510",
+    "sku": "SKU-047",
+    "occurred_at": "2026-06-21T00:00:00"
+  },
+  {
+    "order_id": "8c300a2d-253b-4fec-9b56-25404c25c35a",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-05-17T00:00:00"
+  },
+  {
+    "order_id": "8c300a2d-253b-4fec-9b56-25404c25c35a",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-07-03T00:00:00"
+  },
+  {
+    "order_id": "03a5acd8-24da-4237-92ec-8b7d91a91838",
+    "product_id": "1350ebed-a5d4-52ae-bcf2-cb71b55e6d6f",
+    "sku": "SKU-033",
+    "occurred_at": "2026-08-07T00:00:00"
+  },
+  {
+    "order_id": "03a5acd8-24da-4237-92ec-8b7d91a91838",
+    "product_id": "1350ebed-a5d4-52ae-bcf2-cb71b55e6d6f",
+    "sku": "SKU-033",
+    "occurred_at": "2026-07-26T00:00:00"
+  },
+  {
+    "order_id": "c484f733-a4f7-4e1a-9b75-df43603461fb",
+    "product_id": "d6164dc6-88dc-5061-bc3a-8d44685e0252",
+    "sku": "SKU-048",
+    "occurred_at": "2026-06-21T00:00:00"
+  },
+  {
+    "order_id": "b5f8af5b-437f-47d6-b623-3984220511b1",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-08-05T00:00:00"
+  },
+  {
+    "order_id": "b5f8af5b-437f-47d6-b623-3984220511b1",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-07-18T00:00:00"
+  },
+  {
+    "order_id": "b5f8af5b-437f-47d6-b623-3984220511b1",
+    "product_id": "1a3830bb-83a6-5449-8016-1f8af884fb26",
+    "sku": "SKU-040",
+    "occurred_at": "2026-07-18T00:00:00"
+  },
+  {
+    "order_id": "b5f8af5b-437f-47d6-b623-3984220511b1",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-06-27T00:00:00"
+  },
+  {
+    "order_id": "b5f8af5b-437f-47d6-b623-3984220511b1",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-06-06T00:00:00"
+  },
+  {
+    "order_id": "b5f8af5b-437f-47d6-b623-3984220511b1",
+    "product_id": "a8ffaa35-1c7c-5663-b245-a4fac74d25a9",
+    "sku": "SKU-023",
+    "occurred_at": "2026-06-05T00:00:00"
+  },
+  {
+    "order_id": "5ddb89e7-df21-4b31-b69f-b34dfeab1c63",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-07-29T00:00:00"
+  },
+  {
+    "order_id": "5ddb89e7-df21-4b31-b69f-b34dfeab1c63",
+    "product_id": "d2d7a2a0-6709-5023-bb12-a34e97a1d1e3",
+    "sku": "SKU-021",
+    "occurred_at": "2026-06-05T00:00:00"
+  },
+  {
+    "order_id": "5ddb89e7-df21-4b31-b69f-b34dfeab1c63",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-07-28T00:00:00"
+  },
+  {
+    "order_id": "5ddb89e7-df21-4b31-b69f-b34dfeab1c63",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-07-02T00:00:00"
+  },
+  {
+    "order_id": "5ddb89e7-df21-4b31-b69f-b34dfeab1c63",
+    "product_id": "3ce7d165-cb15-52bf-8ca3-d4c39a973f6e",
+    "sku": "SKU-018",
+    "occurred_at": "2026-07-03T00:00:00"
+  },
+  {
+    "order_id": "5ddb89e7-df21-4b31-b69f-b34dfeab1c63",
+    "product_id": "d2d7a2a0-6709-5023-bb12-a34e97a1d1e3",
+    "sku": "SKU-021",
+    "occurred_at": "2026-07-26T00:00:00"
+  },
+  {
+    "order_id": "d3f83f81-0bca-4b42-9991-330dec9ec7dc",
+    "product_id": "4b302167-40da-584b-9e82-1f01d5d25337",
+    "sku": "SKU-029",
+    "occurred_at": "2026-06-11T00:00:00"
+  },
+  {
+    "order_id": "d3f83f81-0bca-4b42-9991-330dec9ec7dc",
+    "product_id": "269dfc3f-e648-558a-8d9b-56d8768973f4",
+    "sku": "SKU-011",
+    "occurred_at": "2026-08-09T00:00:00"
+  },
+  {
+    "order_id": "d3f83f81-0bca-4b42-9991-330dec9ec7dc",
+    "product_id": "35ac0c09-5ba8-57e4-8940-d6361efad9ac",
+    "sku": "SKU-037",
+    "occurred_at": "2026-05-23T00:00:00"
+  },
+  {
+    "order_id": "960e5ca2-11b1-40aa-84ed-f1e33cb850b8",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-05-20T00:00:00"
+  },
+  {
+    "order_id": "960e5ca2-11b1-40aa-84ed-f1e33cb850b8",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-06-24T00:00:00"
+  },
+  {
+    "order_id": "960e5ca2-11b1-40aa-84ed-f1e33cb850b8",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-06-06T00:00:00"
+  },
+  {
+    "order_id": "960e5ca2-11b1-40aa-84ed-f1e33cb850b8",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-05-18T00:00:00"
+  },
+  {
+    "order_id": "960e5ca2-11b1-40aa-84ed-f1e33cb850b8",
+    "product_id": "4b302167-40da-584b-9e82-1f01d5d25337",
+    "sku": "SKU-029",
+    "occurred_at": "2026-06-19T00:00:00"
+  },
+  {
+    "order_id": "960e5ca2-11b1-40aa-84ed-f1e33cb850b8",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-05-19T00:00:00"
+  },
+  {
+    "order_id": "23ecaa2b-9d64-49d6-bae9-e3acb9d5b33d",
+    "product_id": "5057a11a-7f5d-543a-b3e0-2df6b0d9d349",
+    "sku": "SKU-030",
+    "occurred_at": "2026-07-06T00:00:00"
+  },
+  {
+    "order_id": "23ecaa2b-9d64-49d6-bae9-e3acb9d5b33d",
+    "product_id": "35ac0c09-5ba8-57e4-8940-d6361efad9ac",
+    "sku": "SKU-037",
+    "occurred_at": "2026-08-08T00:00:00"
+  },
+  {
+    "order_id": "23ecaa2b-9d64-49d6-bae9-e3acb9d5b33d",
+    "product_id": "2e1edade-4bf7-54bd-acb8-9d691be2d74d",
+    "sku": "SKU-036",
+    "occurred_at": "2026-08-04T00:00:00"
+  },
+  {
+    "order_id": "23ecaa2b-9d64-49d6-bae9-e3acb9d5b33d",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-07-10T00:00:00"
+  },
+  {
+    "order_id": "23ecaa2b-9d64-49d6-bae9-e3acb9d5b33d",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-07-21T00:00:00"
+  },
+  {
+    "order_id": "23ecaa2b-9d64-49d6-bae9-e3acb9d5b33d",
+    "product_id": "1a3830bb-83a6-5449-8016-1f8af884fb26",
+    "sku": "SKU-040",
+    "occurred_at": "2026-07-01T00:00:00"
+  },
+  {
+    "order_id": "2d4a0539-dc7f-4c83-9c60-f4db59efab23",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-05-29T00:00:00"
+  },
+  {
+    "order_id": "2d4a0539-dc7f-4c83-9c60-f4db59efab23",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-05-26T00:00:00"
+  },
+  {
+    "order_id": "2d4a0539-dc7f-4c83-9c60-f4db59efab23",
+    "product_id": "35ac0c09-5ba8-57e4-8940-d6361efad9ac",
+    "sku": "SKU-037",
+    "occurred_at": "2026-07-31T00:00:00"
+  },
+  {
+    "order_id": "af315dc5-52fe-4ac9-95d0-a691ca7d0c91",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-07-10T00:00:00"
+  },
+  {
+    "order_id": "79d1be4c-e80f-4097-ac51-014ce2cbaf33",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-05-24T00:00:00"
+  },
+  {
+    "order_id": "79d1be4c-e80f-4097-ac51-014ce2cbaf33",
+    "product_id": "f0b2bc2e-bc70-5904-944f-fa6b3656f2c9",
+    "sku": "SKU-028",
+    "occurred_at": "2026-06-13T00:00:00"
+  },
+  {
+    "order_id": "79d1be4c-e80f-4097-ac51-014ce2cbaf33",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-06-15T00:00:00"
+  },
+  {
+    "order_id": "79d1be4c-e80f-4097-ac51-014ce2cbaf33",
+    "product_id": "7d440a2f-3c01-575d-be1f-7aef2d4f8e9b",
+    "sku": "SKU-026",
+    "occurred_at": "2026-06-12T00:00:00"
+  },
+  {
+    "order_id": "f9758d5c-169d-4230-b308-a989b0db0a3c",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-07-18T00:00:00"
+  },
+  {
+    "order_id": "2d499c55-d9ea-46bc-8d7e-de7b06a65de0",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-07-27T00:00:00"
+  },
+  {
+    "order_id": "2d499c55-d9ea-46bc-8d7e-de7b06a65de0",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-07-06T00:00:00"
+  },
+  {
+    "order_id": "2d499c55-d9ea-46bc-8d7e-de7b06a65de0",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-06-17T00:00:00"
+  },
+  {
+    "order_id": "6e816e15-5c7c-40b4-a24e-0b76d40a61b5",
+    "product_id": "addd5b27-08de-5d5e-a95b-c1c9bff7f43f",
+    "sku": "SKU-015",
+    "occurred_at": "2026-08-03T00:00:00"
+  },
+  {
+    "order_id": "6e816e15-5c7c-40b4-a24e-0b76d40a61b5",
+    "product_id": "fc8a8760-54ad-5b83-88d2-ef95c635419c",
+    "sku": "SKU-035",
+    "occurred_at": "2026-07-05T00:00:00"
+  },
+  {
+    "order_id": "6e816e15-5c7c-40b4-a24e-0b76d40a61b5",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-06-13T00:00:00"
+  },
+  {
+    "order_id": "dda9726e-9ce2-4c6a-9bab-cb877a84e6d4",
+    "product_id": "5f0dc79d-d537-54e3-b928-16d44126c3e4",
+    "sku": "SKU-016",
+    "occurred_at": "2026-05-21T00:00:00"
+  },
+  {
+    "order_id": "dda9726e-9ce2-4c6a-9bab-cb877a84e6d4",
+    "product_id": "220a7e00-dac8-5898-bf86-a43a27155160",
+    "sku": "SKU-039",
+    "occurred_at": "2026-06-17T00:00:00"
+  },
+  {
+    "order_id": "dda9726e-9ce2-4c6a-9bab-cb877a84e6d4",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-06-10T00:00:00"
+  },
+  {
+    "order_id": "dda9726e-9ce2-4c6a-9bab-cb877a84e6d4",
+    "product_id": "addd5b27-08de-5d5e-a95b-c1c9bff7f43f",
+    "sku": "SKU-015",
+    "occurred_at": "2026-08-06T00:00:00"
+  },
+  {
+    "order_id": "dda9726e-9ce2-4c6a-9bab-cb877a84e6d4",
+    "product_id": "229b1fe7-d3f0-5438-a003-940745c347ff",
+    "sku": "SKU-049",
+    "occurred_at": "2026-06-22T00:00:00"
+  },
+  {
+    "order_id": "9ccc4ee7-6cf7-4787-8f91-5fef5427ed2c",
+    "product_id": "addd5b27-08de-5d5e-a95b-c1c9bff7f43f",
+    "sku": "SKU-015",
+    "occurred_at": "2026-05-30T00:00:00"
+  },
+  {
+    "order_id": "9ccc4ee7-6cf7-4787-8f91-5fef5427ed2c",
+    "product_id": "220a7e00-dac8-5898-bf86-a43a27155160",
+    "sku": "SKU-039",
+    "occurred_at": "2026-06-09T00:00:00"
+  },
+  {
+    "order_id": "9ccc4ee7-6cf7-4787-8f91-5fef5427ed2c",
+    "product_id": "3ce7d165-cb15-52bf-8ca3-d4c39a973f6e",
+    "sku": "SKU-018",
+    "occurred_at": "2026-08-04T00:00:00"
+  },
+  {
+    "order_id": "9ccc4ee7-6cf7-4787-8f91-5fef5427ed2c",
+    "product_id": "4b302167-40da-584b-9e82-1f01d5d25337",
+    "sku": "SKU-029",
+    "occurred_at": "2026-06-12T00:00:00"
+  },
+  {
+    "order_id": "9ccc4ee7-6cf7-4787-8f91-5fef5427ed2c",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-07-09T00:00:00"
+  },
+  {
+    "order_id": "9ccc4ee7-6cf7-4787-8f91-5fef5427ed2c",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-07-02T00:00:00"
+  },
+  {
+    "order_id": "b452a7a4-775c-4368-9383-2e2cde820c55",
+    "product_id": "d338c8f7-e2c1-5249-a4f9-c56c4c303468",
+    "sku": "SKU-031",
+    "occurred_at": "2026-06-16T00:00:00"
+  },
+  {
+    "order_id": "b452a7a4-775c-4368-9383-2e2cde820c55",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-07-16T00:00:00"
+  },
+  {
+    "order_id": "b452a7a4-775c-4368-9383-2e2cde820c55",
+    "product_id": "2e1edade-4bf7-54bd-acb8-9d691be2d74d",
+    "sku": "SKU-036",
+    "occurred_at": "2026-05-17T00:00:00"
+  },
+  {
+    "order_id": "b452a7a4-775c-4368-9383-2e2cde820c55",
+    "product_id": "1a6a9419-5b14-517b-b33e-f46cd9935ea5",
+    "sku": "SKU-043",
+    "occurred_at": "2026-07-04T00:00:00"
+  },
+  {
+    "order_id": "b452a7a4-775c-4368-9383-2e2cde820c55",
+    "product_id": "d370571c-5782-530a-97fc-de8a22d80b39",
+    "sku": "SKU-041",
+    "occurred_at": "2026-05-21T00:00:00"
+  },
+  {
+    "order_id": "6aa0672d-f92b-4fd5-a1f6-2e7a8b190c0e",
+    "product_id": "d338c8f7-e2c1-5249-a4f9-c56c4c303468",
+    "sku": "SKU-031",
+    "occurred_at": "2026-06-26T00:00:00"
+  },
+  {
+    "order_id": "6aa0672d-f92b-4fd5-a1f6-2e7a8b190c0e",
+    "product_id": "1a3830bb-83a6-5449-8016-1f8af884fb26",
+    "sku": "SKU-040",
+    "occurred_at": "2026-07-27T00:00:00"
+  },
+  {
+    "order_id": "6aa0672d-f92b-4fd5-a1f6-2e7a8b190c0e",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-05-21T00:00:00"
+  },
+  {
+    "order_id": "6aa0672d-f92b-4fd5-a1f6-2e7a8b190c0e",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-06-25T00:00:00"
+  },
+  {
+    "order_id": "42dead1c-611a-4a0b-a09f-df64cdff42cc",
+    "product_id": "d83e1a4d-d1b3-53f0-8a77-9757de5266e9",
+    "sku": "SKU-042",
+    "occurred_at": "2026-07-26T00:00:00"
+  },
+  {
+    "order_id": "42dead1c-611a-4a0b-a09f-df64cdff42cc",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-06-17T00:00:00"
+  },
+  {
+    "order_id": "42dead1c-611a-4a0b-a09f-df64cdff42cc",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-06-02T00:00:00"
+  },
+  {
+    "order_id": "42dead1c-611a-4a0b-a09f-df64cdff42cc",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-05-22T00:00:00"
+  },
+  {
+    "order_id": "42dead1c-611a-4a0b-a09f-df64cdff42cc",
+    "product_id": "0517034f-2fa2-5b66-b6d0-333dbee47c35",
+    "sku": "SKU-045",
+    "occurred_at": "2026-06-22T00:00:00"
+  },
+  {
+    "order_id": "e61a5ae0-895c-4aea-8ce0-9b34b31c0a70",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-06-18T00:00:00"
+  },
+  {
+    "order_id": "e61a5ae0-895c-4aea-8ce0-9b34b31c0a70",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-08-06T00:00:00"
+  },
+  {
+    "order_id": "e61a5ae0-895c-4aea-8ce0-9b34b31c0a70",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-05-25T00:00:00"
+  },
+  {
+    "order_id": "e61a5ae0-895c-4aea-8ce0-9b34b31c0a70",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-07-08T00:00:00"
+  },
+  {
+    "order_id": "e61a5ae0-895c-4aea-8ce0-9b34b31c0a70",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-08-08T00:00:00"
+  },
+  {
+    "order_id": "e61a5ae0-895c-4aea-8ce0-9b34b31c0a70",
+    "product_id": "5f0dc79d-d537-54e3-b928-16d44126c3e4",
+    "sku": "SKU-016",
+    "occurred_at": "2026-07-19T00:00:00"
+  },
+  {
+    "order_id": "77ee47e8-2aae-415c-b6ca-168b559a4dad",
+    "product_id": "25a5ca15-302f-50c0-937b-d066f7340a4c",
+    "sku": "SKU-050",
+    "occurred_at": "2026-06-09T00:00:00"
+  },
+  {
+    "order_id": "77ee47e8-2aae-415c-b6ca-168b559a4dad",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-06-14T00:00:00"
+  },
+  {
+    "order_id": "77ee47e8-2aae-415c-b6ca-168b559a4dad",
+    "product_id": "d338c8f7-e2c1-5249-a4f9-c56c4c303468",
+    "sku": "SKU-031",
+    "occurred_at": "2026-05-30T00:00:00"
+  },
+  {
+    "order_id": "77ee47e8-2aae-415c-b6ca-168b559a4dad",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-06-23T00:00:00"
+  },
+  {
+    "order_id": "77ee47e8-2aae-415c-b6ca-168b559a4dad",
+    "product_id": "6ffc6e88-4d13-554a-9b65-6d8137b51420",
+    "sku": "SKU-027",
+    "occurred_at": "2026-05-24T00:00:00"
+  },
+  {
+    "order_id": "77ee47e8-2aae-415c-b6ca-168b559a4dad",
+    "product_id": "269dfc3f-e648-558a-8d9b-56d8768973f4",
+    "sku": "SKU-011",
+    "occurred_at": "2026-07-14T00:00:00"
+  },
+  {
+    "order_id": "4201bacf-4c54-48c5-81ee-05dc3f5ecc87",
+    "product_id": "a37d5ec6-fb15-5aa7-96e3-fa6ae1141c23",
+    "sku": "SKU-014",
+    "occurred_at": "2026-06-11T00:00:00"
+  },
+  {
+    "order_id": "4201bacf-4c54-48c5-81ee-05dc3f5ecc87",
+    "product_id": "5057a11a-7f5d-543a-b3e0-2df6b0d9d349",
+    "sku": "SKU-030",
+    "occurred_at": "2026-06-17T00:00:00"
+  },
+  {
+    "order_id": "4201bacf-4c54-48c5-81ee-05dc3f5ecc87",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-06-26T00:00:00"
+  },
+  {
+    "order_id": "4201bacf-4c54-48c5-81ee-05dc3f5ecc87",
+    "product_id": "67e9a0ea-b0f4-53c6-ba06-8fb46d3c068d",
+    "sku": "SKU-002",
+    "occurred_at": "2026-07-29T00:00:00"
+  },
+  {
+    "order_id": "4201bacf-4c54-48c5-81ee-05dc3f5ecc87",
+    "product_id": "35ac0c09-5ba8-57e4-8940-d6361efad9ac",
+    "sku": "SKU-037",
+    "occurred_at": "2026-05-25T00:00:00"
+  },
+  {
+    "order_id": "eb705fcb-3a7b-46bf-8c3d-1c50367b16cf",
+    "product_id": "72bdb851-a746-558e-b9f7-cf73e620a03c",
+    "sku": "SKU-024",
+    "occurred_at": "2026-07-06T00:00:00"
+  },
+  {
+    "order_id": "eb705fcb-3a7b-46bf-8c3d-1c50367b16cf",
+    "product_id": "d272c854-faf3-53e0-a879-9c1039136510",
+    "sku": "SKU-047",
+    "occurred_at": "2026-05-21T00:00:00"
+  },
+  {
+    "order_id": "eb705fcb-3a7b-46bf-8c3d-1c50367b16cf",
+    "product_id": "d2d7a2a0-6709-5023-bb12-a34e97a1d1e3",
+    "sku": "SKU-021",
+    "occurred_at": "2026-06-30T00:00:00"
+  },
+  {
+    "order_id": "eb705fcb-3a7b-46bf-8c3d-1c50367b16cf",
+    "product_id": "1a6a9419-5b14-517b-b33e-f46cd9935ea5",
+    "sku": "SKU-043",
+    "occurred_at": "2026-05-20T00:00:00"
+  },
+  {
+    "order_id": "eb705fcb-3a7b-46bf-8c3d-1c50367b16cf",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-07-14T00:00:00"
+  },
+  {
+    "order_id": "8d5f2114-9dc8-44bd-8af8-36a7ce8cfcae",
+    "product_id": "a8ffaa35-1c7c-5663-b245-a4fac74d25a9",
+    "sku": "SKU-023",
+    "occurred_at": "2026-05-29T00:00:00"
+  },
+  {
+    "order_id": "8d5f2114-9dc8-44bd-8af8-36a7ce8cfcae",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-06-03T00:00:00"
+  },
+  {
+    "order_id": "8d5f2114-9dc8-44bd-8af8-36a7ce8cfcae",
+    "product_id": "1350ebed-a5d4-52ae-bcf2-cb71b55e6d6f",
+    "sku": "SKU-033",
+    "occurred_at": "2026-08-02T00:00:00"
+  },
+  {
+    "order_id": "8d5f2114-9dc8-44bd-8af8-36a7ce8cfcae",
+    "product_id": "a7e04e72-8810-51c2-9095-24710fbc097d",
+    "sku": "SKU-034",
+    "occurred_at": "2026-08-07T00:00:00"
+  },
+  {
+    "order_id": "f581cb50-6738-4f1d-9135-0ed35e80e865",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-07-31T00:00:00"
+  },
+  {
+    "order_id": "f581cb50-6738-4f1d-9135-0ed35e80e865",
+    "product_id": "269dfc3f-e648-558a-8d9b-56d8768973f4",
+    "sku": "SKU-011",
+    "occurred_at": "2026-06-07T00:00:00"
+  },
+  {
+    "order_id": "f581cb50-6738-4f1d-9135-0ed35e80e865",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-08-12T00:00:00"
+  },
+  {
+    "order_id": "f581cb50-6738-4f1d-9135-0ed35e80e865",
+    "product_id": "a7e04e72-8810-51c2-9095-24710fbc097d",
+    "sku": "SKU-034",
+    "occurred_at": "2026-06-04T00:00:00"
+  },
+  {
+    "order_id": "f581cb50-6738-4f1d-9135-0ed35e80e865",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-07-11T00:00:00"
+  },
+  {
+    "order_id": "458bef9c-ef08-45e2-94c2-a558ca512f07",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-08-08T00:00:00"
+  },
+  {
+    "order_id": "458bef9c-ef08-45e2-94c2-a558ca512f07",
+    "product_id": "d338c8f7-e2c1-5249-a4f9-c56c4c303468",
+    "sku": "SKU-031",
+    "occurred_at": "2026-05-28T00:00:00"
+  },
+  {
+    "order_id": "458bef9c-ef08-45e2-94c2-a558ca512f07",
+    "product_id": "4b302167-40da-584b-9e82-1f01d5d25337",
+    "sku": "SKU-029",
+    "occurred_at": "2026-06-17T00:00:00"
+  },
+  {
+    "order_id": "458bef9c-ef08-45e2-94c2-a558ca512f07",
+    "product_id": "35ac0c09-5ba8-57e4-8940-d6361efad9ac",
+    "sku": "SKU-037",
+    "occurred_at": "2026-07-09T00:00:00"
+  },
+  {
+    "order_id": "458bef9c-ef08-45e2-94c2-a558ca512f07",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-07-07T00:00:00"
+  },
+  {
+    "order_id": "458bef9c-ef08-45e2-94c2-a558ca512f07",
+    "product_id": "0df9b010-c350-549f-9310-b196d131d93d",
+    "sku": "SKU-017",
+    "occurred_at": "2026-08-06T00:00:00"
+  },
+  {
+    "order_id": "6f23e97c-9377-4396-8d49-af84bf70ea95",
+    "product_id": "d338c8f7-e2c1-5249-a4f9-c56c4c303468",
+    "sku": "SKU-031",
+    "occurred_at": "2026-06-05T00:00:00"
+  },
+  {
+    "order_id": "6f23e97c-9377-4396-8d49-af84bf70ea95",
+    "product_id": "5f0dc79d-d537-54e3-b928-16d44126c3e4",
+    "sku": "SKU-016",
+    "occurred_at": "2026-07-06T00:00:00"
+  },
+  {
+    "order_id": "6f23e97c-9377-4396-8d49-af84bf70ea95",
+    "product_id": "a8ffaa35-1c7c-5663-b245-a4fac74d25a9",
+    "sku": "SKU-023",
+    "occurred_at": "2026-06-07T00:00:00"
+  },
+  {
+    "order_id": "6f23e97c-9377-4396-8d49-af84bf70ea95",
+    "product_id": "0df9b010-c350-549f-9310-b196d131d93d",
+    "sku": "SKU-017",
+    "occurred_at": "2026-07-17T00:00:00"
+  },
+  {
+    "order_id": "6f23e97c-9377-4396-8d49-af84bf70ea95",
+    "product_id": "5f0dc79d-d537-54e3-b928-16d44126c3e4",
+    "sku": "SKU-016",
+    "occurred_at": "2026-06-09T00:00:00"
+  },
+  {
+    "order_id": "681d61ef-b102-44c5-8759-e4569678f47c",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-06-18T00:00:00"
+  },
+  {
+    "order_id": "681d61ef-b102-44c5-8759-e4569678f47c",
+    "product_id": "5f0dc79d-d537-54e3-b928-16d44126c3e4",
+    "sku": "SKU-016",
+    "occurred_at": "2026-08-08T00:00:00"
+  },
+  {
+    "order_id": "681d61ef-b102-44c5-8759-e4569678f47c",
+    "product_id": "d2d7a2a0-6709-5023-bb12-a34e97a1d1e3",
+    "sku": "SKU-021",
+    "occurred_at": "2026-07-20T00:00:00"
+  },
+  {
+    "order_id": "681d61ef-b102-44c5-8759-e4569678f47c",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-05-24T00:00:00"
+  },
+  {
+    "order_id": "681d61ef-b102-44c5-8759-e4569678f47c",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-06-11T00:00:00"
+  },
+  {
+    "order_id": "0a81ea2b-af55-44dc-93c0-4639e0b5e1e7",
+    "product_id": "6e59d05c-eb0f-5f33-8dcc-d3f3b79a0c8c",
+    "sku": "SKU-044",
+    "occurred_at": "2026-07-28T00:00:00"
+  },
+  {
+    "order_id": "0a81ea2b-af55-44dc-93c0-4639e0b5e1e7",
+    "product_id": "fc8a8760-54ad-5b83-88d2-ef95c635419c",
+    "sku": "SKU-035",
+    "occurred_at": "2026-07-25T00:00:00"
+  },
+  {
+    "order_id": "0a81ea2b-af55-44dc-93c0-4639e0b5e1e7",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-06-13T00:00:00"
+  },
+  {
+    "order_id": "0a81ea2b-af55-44dc-93c0-4639e0b5e1e7",
+    "product_id": "35ac0c09-5ba8-57e4-8940-d6361efad9ac",
+    "sku": "SKU-037",
+    "occurred_at": "2026-06-28T00:00:00"
+  },
+  {
+    "order_id": "60b7159b-01ed-4d1d-b548-f47ae33059de",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-06-30T00:00:00"
+  },
+  {
+    "order_id": "60b7159b-01ed-4d1d-b548-f47ae33059de",
+    "product_id": "a7e04e72-8810-51c2-9095-24710fbc097d",
+    "sku": "SKU-034",
+    "occurred_at": "2026-06-01T00:00:00"
+  },
+  {
+    "order_id": "60b7159b-01ed-4d1d-b548-f47ae33059de",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-06-24T00:00:00"
+  },
+  {
+    "order_id": "60b7159b-01ed-4d1d-b548-f47ae33059de",
+    "product_id": "d6164dc6-88dc-5061-bc3a-8d44685e0252",
+    "sku": "SKU-048",
+    "occurred_at": "2026-06-18T00:00:00"
+  },
+  {
+    "order_id": "16a4a3cd-5f06-4065-8cdf-2f3af7bf1eaa",
+    "product_id": "220a7e00-dac8-5898-bf86-a43a27155160",
+    "sku": "SKU-039",
+    "occurred_at": "2026-06-18T00:00:00"
+  },
+  {
+    "order_id": "16a4a3cd-5f06-4065-8cdf-2f3af7bf1eaa",
+    "product_id": "3bb91003-d28e-5064-b1e6-211ef9213523",
+    "sku": "SKU-022",
+    "occurred_at": "2026-07-02T00:00:00"
+  },
+  {
+    "order_id": "16a4a3cd-5f06-4065-8cdf-2f3af7bf1eaa",
+    "product_id": "25a5ca15-302f-50c0-937b-d066f7340a4c",
+    "sku": "SKU-050",
+    "occurred_at": "2026-06-26T00:00:00"
+  },
+  {
+    "order_id": "8214603f-c96b-4caa-88cb-f9cf8ffe618d",
+    "product_id": "d2d7a2a0-6709-5023-bb12-a34e97a1d1e3",
+    "sku": "SKU-021",
+    "occurred_at": "2026-07-03T00:00:00"
+  },
+  {
+    "order_id": "8214603f-c96b-4caa-88cb-f9cf8ffe618d",
+    "product_id": "269dfc3f-e648-558a-8d9b-56d8768973f4",
+    "sku": "SKU-011",
+    "occurred_at": "2026-05-21T00:00:00"
+  },
+  {
+    "order_id": "8214603f-c96b-4caa-88cb-f9cf8ffe618d",
+    "product_id": "25a5ca15-302f-50c0-937b-d066f7340a4c",
+    "sku": "SKU-050",
+    "occurred_at": "2026-06-24T00:00:00"
+  },
+  {
+    "order_id": "8214603f-c96b-4caa-88cb-f9cf8ffe618d",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-07-24T00:00:00"
+  },
+  {
+    "order_id": "8214603f-c96b-4caa-88cb-f9cf8ffe618d",
+    "product_id": "229b1fe7-d3f0-5438-a003-940745c347ff",
+    "sku": "SKU-049",
+    "occurred_at": "2026-06-25T00:00:00"
+  },
+  {
+    "order_id": "8214603f-c96b-4caa-88cb-f9cf8ffe618d",
+    "product_id": "d2402049-a3f0-5aaa-b3aa-3ce8339e9e36",
+    "sku": "SKU-005",
+    "occurred_at": "2026-07-20T00:00:00"
+  },
+  {
+    "order_id": "f1b889a1-8f64-4b2c-9ef1-e800566825ff",
+    "product_id": "5057a11a-7f5d-543a-b3e0-2df6b0d9d349",
+    "sku": "SKU-030",
+    "occurred_at": "2026-06-06T00:00:00"
+  },
+  {
+    "order_id": "f1b889a1-8f64-4b2c-9ef1-e800566825ff",
+    "product_id": "d83e1a4d-d1b3-53f0-8a77-9757de5266e9",
+    "sku": "SKU-042",
+    "occurred_at": "2026-06-16T00:00:00"
+  },
+  {
+    "order_id": "f1b889a1-8f64-4b2c-9ef1-e800566825ff",
+    "product_id": "14a0b7cd-e4ec-5622-8308-3bdadf499af0",
+    "sku": "SKU-007",
+    "occurred_at": "2026-06-17T00:00:00"
+  },
+  {
+    "order_id": "f1b889a1-8f64-4b2c-9ef1-e800566825ff",
+    "product_id": "0517034f-2fa2-5b66-b6d0-333dbee47c35",
+    "sku": "SKU-045",
+    "occurred_at": "2026-08-02T00:00:00"
+  },
+  {
+    "order_id": "f1b889a1-8f64-4b2c-9ef1-e800566825ff",
+    "product_id": "c6b5f884-4ece-5b74-a47e-1a11a39a2921",
+    "sku": "SKU-010",
+    "occurred_at": "2026-07-28T00:00:00"
+  },
+  {
+    "order_id": "f1b889a1-8f64-4b2c-9ef1-e800566825ff",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-07-01T00:00:00"
+  },
+  {
+    "order_id": "bf2e96c8-d137-4368-8176-9d8895be6454",
+    "product_id": "addd5b27-08de-5d5e-a95b-c1c9bff7f43f",
+    "sku": "SKU-015",
+    "occurred_at": "2026-06-24T00:00:00"
+  },
+  {
+    "order_id": "bf2e96c8-d137-4368-8176-9d8895be6454",
+    "product_id": "1350ebed-a5d4-52ae-bcf2-cb71b55e6d6f",
+    "sku": "SKU-033",
+    "occurred_at": "2026-06-28T00:00:00"
+  },
+  {
+    "order_id": "bf2e96c8-d137-4368-8176-9d8895be6454",
+    "product_id": "1350ebed-a5d4-52ae-bcf2-cb71b55e6d6f",
+    "sku": "SKU-033",
+    "occurred_at": "2026-07-28T00:00:00"
+  },
+  {
+    "order_id": "bf2e96c8-d137-4368-8176-9d8895be6454",
+    "product_id": "0df9b010-c350-549f-9310-b196d131d93d",
+    "sku": "SKU-017",
+    "occurred_at": "2026-07-01T00:00:00"
+  },
+  {
+    "order_id": "bf2e96c8-d137-4368-8176-9d8895be6454",
+    "product_id": "f0b2bc2e-bc70-5904-944f-fa6b3656f2c9",
+    "sku": "SKU-028",
+    "occurred_at": "2026-07-16T00:00:00"
+  },
+  {
+    "order_id": "1ddb5c09-36c9-4dfa-8ec4-57ecba1718b0",
+    "product_id": "7af888a3-2614-54f9-991e-3ba82e04958b",
+    "sku": "SKU-006",
+    "occurred_at": "2026-07-13T00:00:00"
+  },
+  {
+    "order_id": "1ddb5c09-36c9-4dfa-8ec4-57ecba1718b0",
+    "product_id": "33387ff8-6cf7-54ed-8c63-813fff185451",
+    "sku": "SKU-009",
+    "occurred_at": "2026-06-12T00:00:00"
+  },
+  {
+    "order_id": "1ddb5c09-36c9-4dfa-8ec4-57ecba1718b0",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-07-08T00:00:00"
+  },
+  {
+    "order_id": "1ddb5c09-36c9-4dfa-8ec4-57ecba1718b0",
+    "product_id": "72bdb851-a746-558e-b9f7-cf73e620a03c",
+    "sku": "SKU-024",
+    "occurred_at": "2026-05-19T00:00:00"
+  },
+  {
+    "order_id": "1ddb5c09-36c9-4dfa-8ec4-57ecba1718b0",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-07-14T00:00:00"
+  },
+  {
+    "order_id": "1ddb5c09-36c9-4dfa-8ec4-57ecba1718b0",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-06-29T00:00:00"
+  },
+  {
+    "order_id": "8e696df6-c56c-4984-8af5-2705e1aac8c7",
+    "product_id": "778f1282-dd9e-5860-b6e7-ff9a03dbceb9",
+    "sku": "SKU-013",
+    "occurred_at": "2026-06-08T00:00:00"
+  },
+  {
+    "order_id": "8e696df6-c56c-4984-8af5-2705e1aac8c7",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-07-14T00:00:00"
+  },
+  {
+    "order_id": "8e696df6-c56c-4984-8af5-2705e1aac8c7",
+    "product_id": "3aebf146-be9c-5c4b-9c2c-d2b27d7d88ef",
+    "sku": "SKU-008",
+    "occurred_at": "2026-05-16T00:00:00"
+  },
+  {
+    "order_id": "8e696df6-c56c-4984-8af5-2705e1aac8c7",
+    "product_id": "addd5b27-08de-5d5e-a95b-c1c9bff7f43f",
+    "sku": "SKU-015",
+    "occurred_at": "2026-07-19T00:00:00"
+  },
+  {
+    "order_id": "8e696df6-c56c-4984-8af5-2705e1aac8c7",
+    "product_id": "283bd953-6ffb-5e43-a58d-37a4303099eb",
+    "sku": "SKU-020",
+    "occurred_at": "2026-07-09T00:00:00"
+  },
+  {
+    "order_id": "42e36925-a70a-46ed-91da-246e531a057e",
+    "product_id": "d272c854-faf3-53e0-a879-9c1039136510",
+    "sku": "SKU-047",
+    "occurred_at": "2026-06-01T00:00:00"
+  },
+  {
+    "order_id": "42e36925-a70a-46ed-91da-246e531a057e",
+    "product_id": "0df9b010-c350-549f-9310-b196d131d93d",
+    "sku": "SKU-017",
+    "occurred_at": "2026-07-01T00:00:00"
+  },
+  {
+    "order_id": "42e36925-a70a-46ed-91da-246e531a057e",
+    "product_id": "f4ed3368-d5aa-58d5-942a-c3360f1f1c31",
+    "sku": "SKU-046",
+    "occurred_at": "2026-05-23T00:00:00"
+  },
+  {
+    "order_id": "cc74213f-a2db-4c3b-8a2e-3ccbb8340e8c",
+    "product_id": "1a6a9419-5b14-517b-b33e-f46cd9935ea5",
+    "sku": "SKU-043",
+    "occurred_at": "2026-06-05T00:00:00"
+  },
+  {
+    "order_id": "cc74213f-a2db-4c3b-8a2e-3ccbb8340e8c",
+    "product_id": "9f95ff9b-cf3a-5464-86ce-39e68197f323",
+    "sku": "SKU-004",
+    "occurred_at": "2026-05-17T00:00:00"
+  },
+  {
+    "order_id": "cc74213f-a2db-4c3b-8a2e-3ccbb8340e8c",
+    "product_id": "7d440a2f-3c01-575d-be1f-7aef2d4f8e9b",
+    "sku": "SKU-026",
+    "occurred_at": "2026-07-21T00:00:00"
+  },
+  {
+    "order_id": "8ea973f0-a34b-4338-a7ec-0d704b29058b",
+    "product_id": "addd5b27-08de-5d5e-a95b-c1c9bff7f43f",
+    "sku": "SKU-015",
+    "occurred_at": "2026-08-10T00:00:00"
+  },
+  {
+    "order_id": "6f58adc0-07bc-4157-810c-ff1cf588fd08",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-06-28T00:00:00"
+  },
+  {
+    "order_id": "27ad96ad-c263-4d53-a4ba-1a84336b2ba9",
+    "product_id": "0df9b010-c350-549f-9310-b196d131d93d",
+    "sku": "SKU-017",
+    "occurred_at": "2026-07-10T00:00:00"
+  },
+  {
+    "order_id": "27ad96ad-c263-4d53-a4ba-1a84336b2ba9",
+    "product_id": "229b1fe7-d3f0-5438-a003-940745c347ff",
+    "sku": "SKU-049",
+    "occurred_at": "2026-06-11T00:00:00"
+  },
+  {
+    "order_id": "27ad96ad-c263-4d53-a4ba-1a84336b2ba9",
+    "product_id": "a7e04e72-8810-51c2-9095-24710fbc097d",
+    "sku": "SKU-034",
+    "occurred_at": "2026-08-04T00:00:00"
+  },
+  {
+    "order_id": "27ad96ad-c263-4d53-a4ba-1a84336b2ba9",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-07-10T00:00:00"
+  },
+  {
+    "order_id": "9e651e9c-d357-4cb3-b5f3-a8d43282f4b6",
+    "product_id": "a37d5ec6-fb15-5aa7-96e3-fa6ae1141c23",
+    "sku": "SKU-014",
+    "occurred_at": "2026-07-21T00:00:00"
+  },
+  {
+    "order_id": "9e651e9c-d357-4cb3-b5f3-a8d43282f4b6",
+    "product_id": "3f277805-1db0-5ddc-80d0-6d054d2f1e19",
+    "sku": "SKU-012",
+    "occurred_at": "2026-07-29T00:00:00"
+  },
+  {
+    "order_id": "9e651e9c-d357-4cb3-b5f3-a8d43282f4b6",
+    "product_id": "934c8417-4c8b-581b-971d-000ebe80f1e3",
+    "sku": "SKU-001",
+    "occurred_at": "2026-07-10T00:00:00"
+  },
+  {
+    "order_id": "9e651e9c-d357-4cb3-b5f3-a8d43282f4b6",
+    "product_id": "7b604495-c37d-528d-b8ec-b490b700a2bc",
+    "sku": "SKU-003",
+    "occurred_at": "2026-08-02T00:00:00"
+  },
+  {
+    "order_id": "9e651e9c-d357-4cb3-b5f3-a8d43282f4b6",
+    "product_id": "72bdb851-a746-558e-b9f7-cf73e620a03c",
+    "sku": "SKU-024",
+    "occurred_at": "2026-07-05T00:00:00"
+  },
+  {
+    "order_id": "3e1da082-a497-4aab-88b7-d9e733bf04cc",
+    "product_id": "a37d5ec6-fb15-5aa7-96e3-fa6ae1141c23",
+    "sku": "SKU-014",
+    "occurred_at": "2026-07-02T00:00:00"
+  },
+  {
+    "order_id": "3e1da082-a497-4aab-88b7-d9e733bf04cc",
+    "product_id": "1a6a9419-5b14-517b-b33e-f46cd9935ea5",
+    "sku": "SKU-043",
+    "occurred_at": "2026-06-17T00:00:00"
+  }
+]

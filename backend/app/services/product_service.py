@@ -50,6 +50,7 @@ async def seed_products(db: AsyncSession) -> int:
             index_elements=["sku"],
             set_={
                 "name": insert(Product).excluded.name,
+                "description": insert(Product).excluded.description,
                 "length": insert(Product).excluded.length,
                 "width": insert(Product).excluded.width,
                 "height": insert(Product).excluded.height,

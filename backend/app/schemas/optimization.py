@@ -28,11 +28,11 @@ class RunOut(BaseModel):
     scope: str
     status: RunStatus
     summary_metrics: dict[str, Any] | None
+    thresholds_snapshot: dict[str, Any]
     created_at: datetime
     started_at: datetime | None
     completed_at: datetime | None
-    created_by: uuid.UUID | None
-    threshold_version: int | None
+    triggered_by: uuid.UUID | None
 
     model_config = {"from_attributes": True}
 
@@ -43,8 +43,8 @@ class AssignmentOut(BaseModel):
     pallet_id: uuid.UUID | None
     product_id: uuid.UUID | None
     slot_id: uuid.UUID
-    score: float
-    is_manual_override: bool
+    score: float | None
+    is_override: bool
 
     model_config = {"from_attributes": True}
 
@@ -55,9 +55,10 @@ class ExceptionOut(BaseModel):
     pallet_id: uuid.UUID | None
     product_id: uuid.UUID | None
     reason_code: str
-    reason_detail: str
-    resolved: bool
-    resolved_slot_id: uuid.UUID | None
+    reason_detail: str | None
+    status: str
+    resolved_by: uuid.UUID | None
+    resolved_at: datetime | None
 
     model_config = {"from_attributes": True}
 
