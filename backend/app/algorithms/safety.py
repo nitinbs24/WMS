@@ -47,13 +47,13 @@ def check_weight_class_level(pallet: Pallet, slot: Slot, thresholds: Thresholds)
     w = pallet.computed_weight
     if w > thresholds.heavy_weight_kg and slot.level > 1:
         raise SafetyViolation(
-            "NO_WEIGHT_CAPACITY",
+            "WEIGHT_CLASS_LEVEL",
             f"Heavy pallet ({w:.0f}kg > {thresholds.heavy_weight_kg:.0f}kg) must be on level 1, "
             f"but target slot is level {slot.level}",
         )
     if w > thresholds.medium_weight_kg and slot.level > 2:
         raise SafetyViolation(
-            "NO_WEIGHT_CAPACITY",
+            "WEIGHT_CLASS_LEVEL",
             f"Medium pallet ({w:.0f}kg > {thresholds.medium_weight_kg:.0f}kg) must be on level ≤2, "
             f"but target slot is level {slot.level}",
         )
