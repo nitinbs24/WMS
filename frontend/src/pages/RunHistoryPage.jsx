@@ -41,7 +41,7 @@ function RunDetailPanel({ run, onClose }) {
     queryFn: () => runsApi.assignments(run.id),
     enabled: run.status === 'completed' || run.status === 'completed_with_exceptions',
   });
-  const { data: exceptions = [] } = useQuery({
+  const { data: exceptions = [], refetch: refetchExceptions } = useQuery({
     queryKey: ['exceptions', run.id],
     queryFn: () => runsApi.exceptions(run.id),
     enabled: run.status === 'completed' || run.status === 'completed_with_exceptions',
@@ -50,33 +50,68 @@ function RunDetailPanel({ run, onClose }) {
     mutationFn: () => runsApi.rollback(run.id),
     onSuccess: () => queryClient.invalidateQueries({ queryKey: ['runs'] }),
   });
+  const { mutate: resolveExc, variables: resolvingId } = useMutation({
+    mutationFn: (excId) => runsApi.resolveException(run.id, excId),
+    onSuccess: () => {
+      refetchExceptions();
+      queryClient.invalidateQueries({ queryKey: ['runs'] });
+    },
+  });
 
   const m = run.summary_metrics || {};
+  const openExceptions = exceptions.filter(e => e.status !== 'resolved');
+  const resolvedCount = exceptions.length - openExceptions.length;
 
   return (
     <div style={{ background: 'var(--color-bg)', border: '1px solid var(--color-border-subtle)', borderRadius: 10, padding: 20, marginTop: 4 }}>
       {/* Metrics */}
       <div style={{ display: 'flex', gap: 10, marginBottom: 16 }}>
         <MetricCard label="Assignments" value={m.assignments ?? assignments.length} color="var(--color-primary-light)" />
-        <MetricCard label="Exceptions" value={m.exceptions ?? exceptions.length} color={exceptions.length > 0 ? 'var(--color-warning)' : 'var(--color-success)'} />
+        <MetricCard label="Open Exceptions" value={openExceptions.length} color={openExceptions.length > 0 ? 'var(--color-warning)' : 'var(--color-success)'} />
+        <MetricCard label="Resolved" value={resolvedCount} color="var(--color-success)" />
         <MetricCard label="Fill Rate" value={m.fill_rate_pct != null ? `${m.fill_rate_pct}%` : null} color="var(--color-success)" />
-        <MetricCard label="Total Slots" value={m.total_slots} />
       </div>
 
-      {/* Exceptions list */}
+      {/* Exceptions list with resolve button */}
       {exceptions.length > 0 && (
         <div style={{ marginBottom: 16 }}>
-          <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--color-text)', marginBottom: 8 }}>
-            ⚠ Exceptions ({exceptions.length})
+          <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--color-text)', marginBottom: 8, display: 'flex', alignItems: 'center', gap: 8 }}>
+            <span>⚠ Exceptions ({exceptions.length})</span>
+            {resolvedCount > 0 && (
+              <span style={{ fontSize: 11, color: '#10b981', background: 'rgba(16,185,129,.1)', padding: '2px 8px', borderRadius: 10 }}>
+                {resolvedCount} resolved
+              </span>
+            )}
           </div>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 6, maxHeight: 180, overflowY: 'auto' }}>
-            {exceptions.slice(0, 10).map(exc => (
-              <div key={exc.id} style={{ background: 'rgba(245,158,11,.07)', border: '1px solid rgba(245,158,11,.2)', borderRadius: 6, padding: '8px 12px', fontSize: 12 }}>
-                <span style={{ color: '#f59e0b', fontWeight: 600 }}>{exc.reason_code}</span>
-                <span style={{ color: 'var(--color-text-muted)', marginLeft: 8 }}>{exc.reason_detail}</span>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 6, maxHeight: 220, overflowY: 'auto' }}>
+            {exceptions.slice(0, 15).map(exc => (
+              <div key={exc.id} style={{
+                background: exc.status === 'resolved' ? 'rgba(16,185,129,.05)' : 'rgba(245,158,11,.07)',
+                border: `1px solid ${exc.status === 'resolved' ? 'rgba(16,185,129,.2)' : 'rgba(245,158,11,.2)'}`,
+                borderRadius: 6, padding: '8px 12px', fontSize: 12,
+                display: 'flex', alignItems: 'center', gap: 10,
+              }}>
+                <div style={{ flex: 1 }}>
+                  <span style={{ color: exc.status === 'resolved' ? '#10b981' : '#f59e0b', fontWeight: 600 }}>
+                    {exc.reason_code}
+                  </span>
+                  <span style={{ color: 'var(--color-text-muted)', marginLeft: 8 }}>{exc.reason_detail}</span>
+                </div>
+                {exc.status === 'resolved' ? (
+                  <span style={{ color: '#10b981', fontSize: 11, whiteSpace: 'nowrap' }}>✓ Resolved</span>
+                ) : (
+                  <button
+                    className="btn btn-ghost btn-sm"
+                    style={{ fontSize: 11, padding: '2px 10px', whiteSpace: 'nowrap', color: '#10b981', borderColor: 'rgba(16,185,129,.3)' }}
+                    onClick={() => resolveExc(exc.id)}
+                    disabled={resolvingId === exc.id}
+                  >
+                    {resolvingId === exc.id ? '…' : '✓ Resolve'}
+                  </button>
+                )}
               </div>
             ))}
-            {exceptions.length > 10 && <div style={{ color: 'var(--color-text-muted)', fontSize: 12, textAlign: 'center' }}>…and {exceptions.length - 10} more</div>}
+            {exceptions.length > 15 && <div style={{ color: 'var(--color-text-muted)', fontSize: 12, textAlign: 'center' }}>…and {exceptions.length - 15} more</div>}
           </div>
         </div>
       )}

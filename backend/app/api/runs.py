@@ -140,6 +140,35 @@ async def get_exceptions(
     return list(result.scalars().all())
 
 
+@router.patch("/{run_id}/exceptions/{exception_id}/resolve", status_code=200)
+async def resolve_exception(
+    run_id: uuid.UUID,
+    exception_id: uuid.UUID,
+    db: AsyncSession = Depends(get_db),
+    current_user: User = Depends(require_role("manager", "admin")),
+):
+    """
+    Mark an exception as manually resolved.
+    Managers do this after physically placing the item by hand or re-running.
+    """
+    from datetime import datetime, timezone
+    await _get_run_or_404(db, run_id)
+    result = await db.execute(
+        select(RunException)
+        .where(RunException.id == exception_id, RunException.run_id == run_id)
+    )
+    exc = result.scalar_one_or_none()
+    if not exc:
+        raise HTTPException(status_code=404, detail="Exception not found")
+    if exc.status == "resolved":
+        raise HTTPException(status_code=409, detail="Exception already resolved")
+    exc.status = "resolved"
+    exc.resolved_by = current_user.id
+    exc.resolved_at = datetime.now(timezone.utc)
+    await db.commit()
+    return {"id": str(exc.id), "status": "resolved"}
+
+
 @router.post("/{run_id}/rollback", status_code=200)
 async def rollback_run(
     run_id: uuid.UUID,
