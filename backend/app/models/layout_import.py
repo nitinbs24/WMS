@@ -4,7 +4,6 @@ import uuid
 from datetime import datetime
 
 import sqlalchemy as sa
-from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.core.database import Base
@@ -19,10 +18,12 @@ class LayoutImport(Base):
     uploaded_by: Mapped[uuid.UUID | None] = mapped_column(
         sa.UUID(as_uuid=True), sa.ForeignKey("users.id", ondelete="SET NULL"), nullable=True
     )
-    file_path: Mapped[str] = mapped_column(sa.Text, nullable=False)
-    status: Mapped[str] = mapped_column(sa.Text, nullable=False, server_default="validating")
-    # validating | valid | invalid | applied
-    validation_errors: Mapped[list | None] = mapped_column(JSONB, nullable=True)
+    filename: Mapped[str] = mapped_column(sa.Text, nullable=False)
+    raw_content: Mapped[str | None] = mapped_column(sa.Text, nullable=True)   # stored for apply step
+    status: Mapped[str] = mapped_column(sa.Text, nullable=False, server_default="pending")
+    # pending | valid | invalid | applied
+    error_detail: Mapped[str | None] = mapped_column(sa.Text, nullable=True)
+    row_count: Mapped[int | None] = mapped_column(sa.Integer, nullable=True)
     created_at: Mapped[datetime] = mapped_column(
         sa.TIMESTAMP(timezone=True), server_default=sa.func.now()
     )

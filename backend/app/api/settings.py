@@ -1,56 +1,49 @@
-"""Admin settings router — versioned threshold configuration."""
+"""
+Settings router.
+- GET  /api/v1/settings/thresholds  — get active thresholds (any authenticated user)
+- POST /api/v1/settings/thresholds  — create new threshold version (admin only)
+- GET  /api/v1/settings/thresholds/history — list all versions (admin only)
+"""
 from __future__ import annotations
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.api.deps import get_current_user, get_db, require_role
-from app.models.settings import ThresholdSettings
+from app.api.deps import get_db, get_current_user, require_role
 from app.models.user import User
+from app.models.settings import ThresholdSettings
+from app.schemas.settings import ThresholdSettingsOut, ThresholdSettingsUpdate
+from app.services import settings_service
 
 router = APIRouter(prefix="/settings", tags=["settings"])
 
 
-def _threshold_to_dict(t: ThresholdSettings) -> dict:
-    return {
-        "id": str(t.id),
-        "version": t.version,
-        "heavy_weight_kg": float(t.heavy_weight_kg),
-        "medium_weight_kg": float(t.medium_weight_kg),
-        "com_threshold": float(t.com_threshold),
-        "blf_com_threshold": float(t.blf_com_threshold),
-        "aisle_a_density_cap": float(t.aisle_a_density_cap),
-        "ergonomic_factors": t.ergonomic_factors,
-        "pick_lookback_days": t.pick_lookback_days,
-        "is_active": t.is_active,
-        "created_at": t.created_at.isoformat(),
-    }
-
-
-@router.get("/thresholds")
-async def get_active_thresholds(
+@router.get("/thresholds", response_model=ThresholdSettingsOut)
+async def get_thresholds(
     db: AsyncSession = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    _: User = Depends(get_current_user),
 ):
-    """Return the currently active ThresholdSettings version."""
-    result = await db.execute(
-        select(ThresholdSettings).where(ThresholdSettings.is_active).order_by(ThresholdSettings.version.desc())
-    )
-    settings = result.scalar_one_or_none()
-    if not settings:
-        raise HTTPException(status_code=404, detail="No threshold settings found — seed the database first")
-    return _threshold_to_dict(settings)
+    return await settings_service.get_active_thresholds(db)
 
 
-@router.put("/thresholds")
+@router.post("/thresholds", response_model=ThresholdSettingsOut, status_code=201)
 async def update_thresholds(
-    body: dict,
+    body: ThresholdSettingsUpdate,
     db: AsyncSession = Depends(get_db),
-    current_user: User = Depends(require_role("admin")),
+    _: User = Depends(require_role("admin")),
 ):
-    """
-    Create a new threshold version. Does NOT mutate the existing row.
-    Past runs remain auditable against the thresholds active at their time.
-    """
-    raise HTTPException(status_code=501, detail="Implemented in Phase 5")
+    ts = await settings_service.create_threshold_version(db, body)
+    await db.commit()
+    return ts
+
+
+@router.get("/thresholds/history", response_model=list[ThresholdSettingsOut])
+async def threshold_history(
+    db: AsyncSession = Depends(get_db),
+    _: User = Depends(require_role("admin")),
+):
+    result = await db.execute(
+        select(ThresholdSettings).order_by(ThresholdSettings.version.desc())
+    )
+    return list(result.scalars().all())

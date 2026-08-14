@@ -1,51 +1,44 @@
-"""Products router — product catalog and seed endpoint."""
+"""
+Products router.
+- GET  /api/v1/products         — list all products (any authenticated user)
+- GET  /api/v1/products/{sku}   — get product by SKU
+- POST /api/v1/products/seed    — seed from mock JSON (admin only)
+"""
 from __future__ import annotations
 
-from fastapi import APIRouter, Depends, HTTPException
-from sqlalchemy import select
+from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.api.deps import get_current_user, get_db, require_role
-from app.models.product import Product
+from app.api.deps import get_db, get_current_user, require_role
 from app.models.user import User
+from app.schemas.product import ProductOut
+from app.services import product_service
 
 router = APIRouter(prefix="/products", tags=["products"])
 
 
-@router.get("")
+@router.get("", response_model=list[ProductOut])
 async def list_products(
     db: AsyncSession = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    _: User = Depends(get_current_user),
 ):
-    result = await db.execute(select(Product))
-    products = result.scalars().all()
-    return [
-        {
-            "id": str(p.id), "sku": p.sku, "name": p.name,
-            "length": float(p.length), "width": float(p.width), "height": float(p.height),
-            "weight": float(p.weight), "category": p.category, "abc_class": p.abc_class,
-        }
-        for p in products
-    ]
+    return await product_service.list_products(db)
 
 
-@router.get("/{sku}")
+@router.get("/{sku}", response_model=ProductOut)
 async def get_product(
     sku: str,
     db: AsyncSession = Depends(get_db),
-    current_user: User = Depends(get_current_user),
+    _: User = Depends(get_current_user),
 ):
-    result = await db.execute(select(Product).where(Product.sku == sku))
-    product = result.scalar_one_or_none()
-    if not product:
-        raise HTTPException(status_code=404, detail="Product not found")
-    return {"id": str(product.id), "sku": product.sku, "name": product.name}
+    return await product_service.get_product_by_sku(db, sku)
 
 
-@router.post("/seed")
+@router.post("/seed", status_code=200)
 async def seed_products(
     db: AsyncSession = Depends(get_db),
-    current_user: User = Depends(require_role("admin")),
+    _: User = Depends(require_role("admin")),
 ):
-    """Dev-only: load the mock dataset from seed files into the database."""
-    raise HTTPException(status_code=501, detail="Implemented in Phase 3")
+    count = await product_service.seed_products(db)
+    await db.commit()
+    return {"seeded": count}
